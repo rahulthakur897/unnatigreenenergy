@@ -1,0 +1,313 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   UNNATI GREEN ENERGY — Design tokens
+   Colours are sampled directly from the official logo artwork:
+   forest-800 #023C15 (UNNATI wordmark), forest-700 #024617 (emblem "U"),
+   leaf-600…300 (leaf gradient), sun-500/400 (sun).
+   ========================================================================== */
+
+@theme {
+  /* Deep greens — logo wordmark & emblem */
+  --color-forest-950: #01170a;
+  --color-forest-900: #022a11;
+  --color-forest-800: #023c15;
+  --color-forest-700: #024617;
+  --color-forest-600: #085716;
+  --color-forest-500: #166813;
+
+  /* Fresh leaf greens — logo leaves */
+  --color-leaf-700: #267a0e;
+  --color-leaf-600: #348a0b;
+  --color-leaf-500: #459a09;
+  --color-leaf-400: #57a907;
+  --color-leaf-300: #67b506;
+  --color-leaf-200: #b2dc82;
+  --color-leaf-100: #dcefc6;
+  --color-leaf-50: #f1f8e9;
+
+  /* Solar yellow — logo sun (accent, use sparingly) */
+  --color-sun-600: #fea801;
+  --color-sun-500: #feb801;
+  --color-sun-400: #fec702;
+  --color-sun-300: #ffd84a;
+  --color-sun-100: #fff4c7;
+
+  /* Text */
+  --color-ink-950: #0b1d12;
+  --color-ink-900: #10251a;
+  --color-ink-700: #2c3e33;
+  --color-ink-600: #45574b;
+  --color-ink-500: #5e6d64;
+  --color-ink-400: #8a978e;
+
+  /* Surfaces & lines */
+  --color-mist-50: #f7faf8;
+  --color-mist-100: #eef4ef;
+  --color-mist-200: #e1eae3;
+  --color-mist-300: #cbd9ce;
+
+  --shadow-soft: 0 1px 2px rgb(16 37 26 / 0.04), 0 10px 30px -12px rgb(16 37 26 / 0.12);
+  --shadow-lift: 0 2px 6px rgb(16 37 26 / 0.05), 0 28px 60px -24px rgb(16 37 26 / 0.28);
+  --shadow-glow: 0 0 0 6px rgb(254 199 2 / 0.14), 0 10px 30px -6px rgb(254 199 2 / 0.45);
+
+  --ease-premium: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --animate-fade-up: fade-up 1s var(--ease-premium) both;
+  --animate-fade-in: fade-in 1.2s var(--ease-premium) both;
+  --animate-float: float 7s ease-in-out infinite;
+  --animate-spin-slow: spin-around 60s linear infinite;
+  --animate-spin-slower: spin-around 90s linear infinite reverse;
+  --animate-dash-flow: dash-flow 2.4s linear infinite;
+  --animate-ping-soft: ping-soft 2.4s var(--ease-premium) infinite;
+  --animate-shimmer: shimmer 2.8s ease-in-out infinite;
+
+}
+
+@theme inline {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-jakarta), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Keyframes live outside @theme so they are always emitted (also used via arbitrary values). */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 28px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0);
+  }
+}
+@keyframes dash-flow {
+  to {
+    stroke-dashoffset: -48;
+  }
+}
+@keyframes ping-soft {
+  0% {
+    transform: scale(1);
+    opacity: 0.55;
+  }
+  80%,
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+@keyframes shimmer {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes spin-around {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes progress-fill {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Keeps hash targets clear of the fixed header */
+    scroll-padding-top: 6rem;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-mist-50);
+    color: var(--color-ink-900);
+    font-family: var(--font-sans);
+    text-rendering: optimizeLegibility;
+    /* Decorative elements must never introduce horizontal scrolling */
+    overflow-x: clip;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background-color: var(--color-leaf-200);
+    color: var(--color-forest-950);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-forest-600);
+    outline-offset: 3px;
+  }
+
+  .surface-dark :focus-visible {
+    outline-color: var(--color-sun-400);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
+
+@utility container-site {
+  width: 100%;
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+
+  @media (width >= 40rem) {
+    padding-inline: 1.5rem;
+  }
+  @media (width >= 64rem) {
+    padding-inline: 2rem;
+  }
+}
+
+@utility section-y {
+  padding-block: 5rem;
+
+  @media (width >= 48rem) {
+    padding-block: 6.5rem;
+  }
+  @media (width >= 80rem) {
+    padding-block: 8rem;
+  }
+}
+
+@utility bg-grid-light {
+  background-image:
+    linear-gradient(to right, rgb(2 60 21 / 0.055) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(2 60 21 / 0.055) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+@utility bg-grid-dark {
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.045) 1px, transparent 1px);
+  background-size: 72px 72px;
+}
+
+@utility mask-fade-b {
+  mask-image: linear-gradient(to bottom, black 40%, transparent);
+}
+
+@utility mask-radial {
+  mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
+}
+
+@utility text-gradient-energy {
+  background-image: linear-gradient(100deg, #c2e68f 0%, #fec702 62%, #feb801 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Scroll-reveal (see components/motion/Reveal.tsx).
+   Content is only hidden when scripting is available, so it is never lost without JS. */
+[data-reveal] {
+  transition:
+    opacity 0.9s var(--ease-premium),
+    transform 0.9s var(--ease-premium);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+@media (scripting: enabled) {
+  [data-reveal="hidden"] {
+    opacity: 0;
+    transform: translate3d(0, 32px, 0);
+  }
+}
+
+/* Pause decorative loops on request (pause buttons set data-paused) */
+[data-paused="true"] * {
+  animation-play-state: paused !important;
+}
+
+/* Long-form legal content */
+.prose-legal h2 {
+  margin-top: 2.5rem;
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: var(--color-ink-900);
+}
+.prose-legal p,
+.prose-legal li {
+  margin-top: 0.875rem;
+  line-height: 1.75;
+  color: var(--color-ink-600);
+}
+.prose-legal ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
