@@ -2,7 +2,6 @@ import type { StaticImageData } from "next/image";
 
 // Supplied by UNNATI GREEN ENERGY
 import banner from "@/public/assets/images/banner.jpg";
-import evRickshaw from "@/public/assets/images/categories/ev-rickshaw.jpg";
 import ledLighting from "@/public/assets/images/categories/led.jpg";
 import medical from "@/public/assets/images/categories/medical.jpg";
 import smallStorage from "@/public/assets/images/categories/small-energy-storage.jpg";
@@ -42,7 +41,6 @@ export type Photo = { src: StaticImageData; alt: string };
 export const photos = {
   // Supplied
   banner: { src: banner, alt: "Wind turbines on a green hillside under a clear sky" },
-  evRickshaw: { src: evRickshaw, alt: "Electric three-wheeler (e-rickshaw) in a vehicle facility" },
   ledLighting: { src: ledLighting, alt: "LED light bulbs resting on green grass" },
   medical: { src: medical, alt: "Technician operating equipment in a clean manufacturing environment" },
   smallStorage: { src: smallStorage, alt: "Small cylindrical units held in a person's open hand" },

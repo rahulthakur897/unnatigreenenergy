@@ -25,8 +25,8 @@ export function ProductsShowcase({
             id={`${id}-title`}
             split
             eyebrow="Our Products"
-            title="Lithium-Ion Cells & Battery Scrap We Trade"
-            description="From loose cells to complete packs, we trade lithium-ion battery material across formats and applications — each lot evaluated on its chemistry, condition and volume."
+            title="The Cells and Battery Scrap We Buy"
+            description="Single cells, complete packs and everything in between, from almost any application. We price each lot on its chemistry, condition and quantity."
             action={showLink ? <ArrowLink href="/products">View all products</ArrowLink> : undefined}
           />
         </Reveal>
@@ -57,9 +57,9 @@ export function ProductsShowcase({
                 <Camera className="size-5" aria-hidden="true" />
               </span>
               <div>
-                <h3 className="font-display text-lg font-bold text-ink-950">Not sure how to classify your material?</h3>
+                <h3 className="font-display text-lg font-bold text-ink-950">Don&rsquo;t know which category fits?</h3>
                 <p className="mt-1 max-w-xl text-[0.9375rem] leading-relaxed text-ink-500">
-                  Share photographs and a short description — we&rsquo;ll help identify it and suggest the next step.
+                  Send us some photos and a few lines about it. We&rsquo;ll work out what it is and tell you what happens next.
                 </p>
               </div>
             </div>

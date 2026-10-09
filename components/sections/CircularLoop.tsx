@@ -138,7 +138,7 @@ export function CircularLoop() {
           </svg>
 
           {/* Logo at the heart of the loop, on white for legibility */}
-          <div className="absolute left-1/2 top-1/2 grid size-[36%] -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-white p-[5.5%] shadow-[0_0_0_10px_rgb(255_255_255/0.05),0_0_0_22px_rgb(255_255_255/0.025),0_0_90px_rgb(254_199_2/0.22)]">
+          <div className="absolute left-1/2 top-1/2 grid size-[36%] -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-white p-[3.5%] shadow-[0_0_0_10px_rgb(255_255_255/0.05),0_0_0_22px_rgb(255_255_255/0.025),0_0_90px_rgb(254_199_2/0.22)]">
             <Logo className="h-auto w-full" sizes="(min-width: 640px) 160px, 100px" />
           </div>
 

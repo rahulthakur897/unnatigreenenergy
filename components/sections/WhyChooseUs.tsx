@@ -19,8 +19,8 @@ export function WhyChooseUs({ id = "why-us", className }: { id?: string; classNa
               <SectionHeading
                 id={`${id}-title`}
                 eyebrow="Why Us"
-                title="Why Choose UNNATI GREEN ENERGY?"
-                description="We combine industry understanding with a simple principle: handle every battery responsibly, and treat every client transparently."
+                title="Why Businesses Work With UNNATI GREEN ENERGY"
+                description="We know the battery industry, and we stick to one simple rule: look after every battery properly and be straight with every client."
               />
             </Reveal>
             <Reveal delay={100}>
@@ -38,11 +38,11 @@ export function WhyChooseUs({ id = "why-us", className }: { id?: string; classNa
                   <span className="grid size-10 shrink-0 place-items-center rounded-full bg-sun-400 text-forest-950">
                     <Handshake className="size-5" aria-hidden="true" />
                   </span>
-                  Built for long-term partnerships
+                  Here for the long run
                 </p>
               </div>
               <ButtonLink href={quoteHref} arrow size="lg" className="mt-8">
-                Start a Conversation
+                Get in Touch
               </ButtonLink>
             </Reveal>
           </div>

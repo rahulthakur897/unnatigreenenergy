@@ -10,7 +10,7 @@ export const site = {
   descriptor: "Lithium Ion Cell & Battery Scrap Trading",
   tagline: "Waste Today, Value Tomorrow",
   description:
-    "UNNATI GREEN ENERGY specializes in lithium-ion cell and battery scrap trading, responsible material recovery, and sustainable energy solutions.",
+    "UNNATI GREEN ENERGY buys and trades lithium-ion cell and battery scrap, giving businesses an accountable way to send used batteries toward material recovery.",
   // TODO: Replace with the production domain, or set NEXT_PUBLIC_SITE_URL in the hosting environment.
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.unnatigreenenergy.com",
   locale: "en_IN",

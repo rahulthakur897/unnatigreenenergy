@@ -11,7 +11,7 @@ export function TrustBar() {
               id="trust-title"
               className="font-display text-xl font-bold leading-snug tracking-tight text-ink-950 lg:col-span-3 xl:text-[1.375rem]"
             >
-              Trusted Approach. Responsible Energy. <span className="text-leaf-600">Sustainable Future.</span>
+              Careful Handling. Fair Dealing. <span className="text-leaf-600">Cleaner Energy.</span>
             </h2>
             <ul className="grid grid-cols-2 gap-x-4 gap-y-7 sm:grid-cols-3 lg:col-span-9 lg:grid-cols-5 lg:gap-0 lg:divide-x lg:divide-mist-200">
               {trustHighlights.map(({ label, icon: Icon }) => (

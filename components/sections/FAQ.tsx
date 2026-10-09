@@ -28,8 +28,8 @@ export function FAQ({
               <SectionHeading
                 id={`${id}-title`}
                 eyebrow="FAQ"
-                title="Frequently Asked Questions"
-                description="Answers to common questions about selling and trading battery scrap with us."
+                title="Questions We Often Hear"
+                description="Quick answers about selling your battery scrap to us and how the process works."
               />
             </Reveal>
             <Reveal delay={100}>
@@ -38,9 +38,9 @@ export function FAQ({
                 <span className="relative grid size-11 place-items-center rounded-full bg-white/10 text-sun-300 ring-1 ring-white/15">
                   <MessageCircle className="size-5" aria-hidden="true" />
                 </span>
-                <p className="relative mt-5 font-display text-xl font-semibold">Still have questions?</p>
+                <p className="relative mt-5 font-display text-xl font-semibold">Can&rsquo;t find your answer?</p>
                 <p className="relative mt-2 text-sm leading-relaxed text-white/65">
-                  Our team is happy to talk through your material, volumes and requirements.
+                  Get in touch and we&rsquo;ll talk through your material, quantities and what you need.
                 </p>
                 <ButtonLink href={quoteHref} variant="accent" arrow className="relative mt-6">
                   Talk to Our Team

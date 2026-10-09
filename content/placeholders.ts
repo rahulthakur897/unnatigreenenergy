@@ -19,29 +19,29 @@ export type Stat = {
 
 export const stats: Stat[] = [
   {
-    label: "Battery Material Recovered",
-    detail: "Cumulative tonnage handled", // TODO: Replace with actual company statistic
+    label: "Battery Material Handled",
+    detail: "Total tonnage moved to date", // TODO: Replace with actual company statistic
     value: null, // TODO: Replace with actual company statistic, e.g. 1200
     suffix: " Tons",
     placeholder: "XX",
   },
   {
-    label: "Business Partners",
-    detail: "Suppliers and buyers we work with", // TODO: Replace with actual company statistic
+    label: "Partner Businesses",
+    detail: "Suppliers and buyers in our network", // TODO: Replace with actual company statistic
     value: null, // TODO: Replace with actual company statistic
     suffix: "+",
     placeholder: "XX",
   },
   {
-    label: "Cities Served",
-    detail: "Locations we have collected from", // TODO: Replace with actual company statistic
+    label: "Cities Covered",
+    detail: "Places we have collected material from", // TODO: Replace with actual company statistic
     value: null, // TODO: Replace with actual company statistic
     suffix: "+",
     placeholder: "XX",
   },
   {
-    label: "Years of Experience",
-    detail: "In battery scrap and recycling trade", // TODO: Replace with actual company statistic
+    label: "Years in the Trade",
+    detail: "Working in battery scrap and recycling", // TODO: Replace with actual company statistic
     value: null, // TODO: Replace with actual company statistic
     suffix: "+",
     placeholder: "XX",
@@ -59,21 +59,21 @@ export type Testimonial = {
 /** TODO: Replace with genuine client testimonials, used with each client's written permission. */
 export const testimonials: Testimonial[] = [
   {
-    quote: "Client testimonial will appear here. Share a short, genuine quote about working with UNNATI GREEN ENERGY.",
+    quote: "A client testimonial goes here. Add a short, genuine quote about working with UNNATI GREEN ENERGY.",
     name: "Client Name",
     role: "Designation",
     company: "Company Name",
     isPlaceholder: true,
   },
   {
-    quote: "Client testimonial will appear here. Real feedback from a verified customer or partner goes in this space.",
+    quote: "A client testimonial goes here. Use real feedback from a verified customer or partner.",
     name: "Client Name",
     role: "Designation",
     company: "Company Name",
     isPlaceholder: true,
   },
   {
-    quote: "Client testimonial will appear here. Replace this placeholder with an approved testimonial before launch.",
+    quote: "A client testimonial goes here. Swap this placeholder for an approved testimonial before launch.",
     name: "Client Name",
     role: "Designation",
     company: "Company Name",

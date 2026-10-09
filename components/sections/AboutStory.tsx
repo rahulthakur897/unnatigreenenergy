@@ -5,9 +5,9 @@ import { Eyebrow } from "@/components/ui/SectionHeading";
 import { photos } from "@/lib/images";
 
 const pillars = [
-  { label: "Responsible", text: "Careful handling, every lot", icon: ShieldCheck },
-  { label: "Transparent", text: "Clear terms and records", icon: Eye },
-  { label: "Circular", text: "Materials kept in use", icon: Recycle },
+  { label: "Careful", text: "Every lot handled with attention", icon: ShieldCheck },
+  { label: "Open", text: "Plain terms, full records", icon: Eye },
+  { label: "Circular", text: "Materials put back to work", icon: Recycle },
 ];
 
 export function AboutStory({ id = "about-story" }: { id?: string }) {
@@ -20,10 +20,10 @@ export function AboutStory({ id = "about-story" }: { id?: string }) {
             Our story
           </h2>
           <p className="mt-8 max-w-5xl font-display text-[1.625rem] font-semibold leading-[1.3] tracking-[-0.02em] text-ink-950 sm:text-[2.125rem] lg:text-[2.625rem]">
-            We work in lithium-ion cell and battery scrap trading — helping businesses{" "}
-            <span className="text-leaf-600">manage battery waste responsibly</span>,{" "}
-            <span className="text-leaf-600">recover more of its value</span> and support a{" "}
-            <span className="text-leaf-600">circular energy economy</span>.
+            We trade lithium-ion cells and battery scrap so that businesses can{" "}
+            <span className="text-leaf-600">dispose of batteries properly</span>,{" "}
+            <span className="text-leaf-600">get more back from them</span> and help build a{" "}
+            <span className="text-leaf-600">closed-loop energy economy</span>.
           </p>
         </Reveal>
 
@@ -58,31 +58,45 @@ export function AboutStory({ id = "about-story" }: { id?: string }) {
             </div>
           </Reveal>
 
+
           <Reveal className="lg:col-span-6" delay={100}>
             <div className="space-y-5 text-lg leading-relaxed text-ink-500">
               <p>
-                In Hindi, <span className="font-semibold text-forest-700">unnati</span> means progress — advancement,
-                upliftment, moving forward. It&rsquo;s a fitting name for what we believe the battery economy can become: a
-                cycle of progress, where today&rsquo;s waste becomes tomorrow&rsquo;s value.
+                <span className="font-semibold text-forest-700">
+                  Unnati
+                </span>{" "}
+                represents progress, growth, and the pursuit of a better future.
+                At UNNATI GREEN ENERGY, this philosophy shapes our approach to
+                lithium-ion battery scrap trading — connecting responsible
+                material management with new opportunities for resource recovery
+                and long-term value creation.
               </p>
+
               <p>
-                We help the businesses that generate battery scrap — manufacturers, EV and mobility companies, energy storage
-                operators, electronics businesses and aggregators — move their material responsibly, with transparent
-                evaluation and careful handling.
-              </p>
-              <p>
-                Our focus is simple: make sure the valuable materials inside used batteries are recovered rather than wasted,
-                and make the process straightforward and trustworthy for every business we work with.
+                We work within the evolving battery and energy ecosystem,
+                supporting businesses that generate or handle used lithium-ion
+                cells, battery packs, modules, and related scrap materials.
+                Through transparent commercial practices, careful material
+                evaluation, and dependable coordination, we aim to make battery
+                scrap trading more structured, accessible, and reliable for our
+                business partners.
               </p>
             </div>
-            <ul className="mt-10 grid grid-cols-3 gap-4 border-t border-mist-200 pt-8">
+
+            <ul className="mt-10 grid grid-cols-1 gap-6 border-t border-mist-200 pt-8 sm:grid-cols-3">
               {pillars.map(({ label, text, icon: Icon }) => (
-                <li key={label}>
-                  <span className="grid size-11 place-items-center rounded-xl bg-forest-700 text-sun-300">
+                <li key={label} className="group">
+                  <span className="grid size-12 place-items-center rounded-xl bg-forest-700 text-sun-300 transition-colors duration-300 group-hover:bg-leaf-600">
                     <Icon className="size-5" aria-hidden="true" />
                   </span>
-                  <p className="mt-4 font-display font-bold text-ink-950">{label}</p>
-                  <p className="mt-1 text-sm leading-snug text-ink-500">{text}</p>
+
+                  <p className="mt-4 font-display font-bold text-ink-950">
+                    {label}
+                  </p>
+
+                  <p className="mt-2 text-sm leading-relaxed text-ink-500">
+                    {text}
+                  </p>
                 </li>
               ))}
             </ul>

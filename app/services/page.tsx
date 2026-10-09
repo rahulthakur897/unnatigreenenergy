@@ -10,7 +10,7 @@ import { quoteHref } from "@/lib/site";
 export const metadata = pageMetadata({
   title: "Services — Battery Scrap Trading, Recovery & Manufacturing Line Support",
   description:
-    "Lithium-ion battery scrap trading, lithium-ion battery manufacturing line services, cell and pack scrap, material recovery, responsible sourcing and bulk industrial trading.",
+    "Services from UNNATI GREEN ENERGY: lithium-ion scrap trading, battery production line support, cell and pack scrap, material recovery, accountable sourcing and bulk industrial trading.",
   path: "/services",
 });
 
@@ -20,8 +20,8 @@ export default function ServicesPage() {
       <PageHero
         id="services-hero"
         eyebrow="Services"
-        title="Services Built for Responsible Battery Value"
-        description="From trading lithium-ion battery scrap to supporting battery manufacturing lines — practical, transparent services across the battery value chain."
+        title="Services That Get the Most From Every Battery"
+        description="Whether you're clearing lithium-ion scrap or setting up a battery production line, we offer practical, open services across the battery value chain."
         image={photos.liIonLabel}
         crumbs={[{ label: "Services", href: "/services" }]}
       >
@@ -30,15 +30,15 @@ export default function ServicesPage() {
             Request a Quote
           </ButtonLink>
           <ButtonLink href="#services-process" variant="outlineLight" size="lg">
-            See How It Works
+            How It Works
           </ButtonLink>
         </div>
       </PageHero>
       <ServicesGrid
         id="services-list"
         eyebrow="What We Offer"
-        title="Seven ways we create value from batteries"
-        description="Each service is built on the same foundation: accurate evaluation, careful handling and responsible routing."
+        title="Seven ways we can help"
+        description="Every service rests on the same three things: an accurate evaluation, careful handling and the right destination for your material."
         showLink={false}
       />
       <ServiceSpotlight id="services-spotlight" />

@@ -31,11 +31,11 @@ type Feature = { title: string; text: string; icon: LucideIcon };
 /* -------------------------------------------------------------------------- */
 
 export const trustHighlights: { label: string; icon: LucideIcon }[] = [
-  { label: "Responsible Battery Trading", icon: ShieldCheck },
-  { label: "Quality-Focused Operations", icon: BadgeCheck },
-  { label: "Sustainable Approach", icon: Leaf },
-  { label: "Transparent Transactions", icon: Scale },
-  { label: "Industrial-Grade Solutions", icon: Factory },
+  { label: "Accountable Battery Trading", icon: ShieldCheck },
+  { label: "Careful Lot Inspection", icon: BadgeCheck },
+  { label: "Recovery-First Thinking", icon: Leaf },
+  { label: "Clear, Documented Deals", icon: Scale },
+  { label: "Ready for Industrial Volumes", icon: Factory },
 ];
 
 /**
@@ -52,33 +52,33 @@ export const credentials: { label: string; detail: string }[] = [];
 
 export const processSteps: Feature[] = [
   {
-    title: "Collection / Sourcing",
-    text: "We source battery scrap from businesses, manufacturers and aggregators — starting with a clear picture of material type, condition and volume.",
+    title: "Sourcing & Pickup",
+    text: "We collect scrap from manufacturers, businesses and aggregators — after first learning what the material is, what state it is in and how much there is.",
     icon: Truck,
   },
   {
-    title: "Inspection & Segregation",
-    text: "Material is inspected and segregated by chemistry, format and condition so every lot is described accurately.",
+    title: "Inspection & Sorting",
+    text: "Each lot is checked and sorted by chemistry, format and condition, so the record matches what is actually there.",
     icon: ScanSearch,
   },
   {
-    title: "Responsible Handling",
-    text: "Batteries are packed, stored and moved with care to reduce the risk of damage, leakage or short-circuit.",
+    title: "Safe Handling",
+    text: "Packing, storage and transport are planned to keep the risk of short circuits, leaks and physical damage low.",
     icon: HardHat,
   },
   {
-    title: "Material Recovery",
-    text: "Suitable material is routed toward recovery processes where valuable metals and components can be reclaimed.",
+    title: "Recovery Routing",
+    text: "Material that suits recovery is sent on to processes where its metals and usable parts can be reclaimed.",
     icon: Atom,
   },
   {
-    title: "Reuse / Recycling Ecosystem",
-    text: "Recovered materials and usable components move back into the recycling and manufacturing ecosystem.",
+    title: "Back Into Circulation",
+    text: "Reclaimed materials and serviceable parts re-enter recycling and manufacturing supply chains.",
     icon: Recycle,
   },
   {
-    title: "Value Creation",
-    text: "Businesses unlock value from waste while contributing to a cleaner, circular energy economy.",
+    title: "Shared Value",
+    text: "Your scrap earns a return for your business and contributes to a cleaner, more circular energy sector.",
     icon: HandCoins,
   },
 ];
@@ -88,14 +88,14 @@ export const processSteps: Feature[] = [
 /* -------------------------------------------------------------------------- */
 
 export const whyChooseUs: Feature[] = [
-  { title: "Responsible Approach", text: "Battery scrap is handled with care and directed to appropriate downstream channels.", icon: ShieldCheck },
-  { title: "Transparent Transactions", text: "Clear evaluation, straightforward terms and complete records for every lot.", icon: Scale },
-  { title: "Quality-Focused Handling", text: "Careful inspection and segregation so material is described accurately.", icon: BadgeCheck },
-  { title: "Reliable Supply Network", text: "Working relationships across the battery value chain keep material moving.", icon: Network },
-  { title: "Sustainable Practices", text: "Every decision is guided by resource recovery and reducing waste.", icon: Leaf },
-  { title: "Long-Term Partnerships", text: "We value consistent, repeat relationships over one-off transactions.", icon: Handshake },
-  { title: "Industry Understanding", text: "Familiarity with cell formats, chemistries and the needs of different sectors.", icon: Lightbulb },
-  { title: "Professional Service", text: "Responsive communication, punctual coordination and respect for your timelines.", icon: Headset },
+  { title: "Care at Every Step", text: "Each battery is handled attentively and sent only to suitable downstream channels.", icon: ShieldCheck },
+  { title: "Open, Honest Dealings", text: "You see how we arrive at our offer, agree clear terms and receive full records for each lot.", icon: Scale },
+  { title: "Accurate Descriptions", text: "Thorough checks and sorting mean material is recorded as it really is.", icon: BadgeCheck },
+  { title: "A Dependable Network", text: "Relationships across the battery value chain help keep material moving without delays.", icon: Network },
+  { title: "A Recovery Mindset", text: "Reclaiming materials and cutting waste shape the decisions we make.", icon: Leaf },
+  { title: "Partners, Not One-Off Deals", text: "We aim to earn repeat business through steady, reliable work.", icon: Handshake },
+  { title: "Sector Know-How", text: "We understand cell formats, chemistries and how different industries generate scrap.", icon: Lightbulb },
+  { title: "A Responsive Team", text: "Quick replies, on-time coordination and respect for your schedule.", icon: Headset },
 ];
 
 /* -------------------------------------------------------------------------- */
@@ -103,12 +103,12 @@ export const whyChooseUs: Feature[] = [
 /* -------------------------------------------------------------------------- */
 
 export const qualityPillars: Feature[] = [
-  { title: "Safe Handling", text: "Batteries are handled, packed and stored with care to minimise risks such as short-circuit, damage and leakage.", icon: HardHat },
-  { title: "Quality Inspection", text: "Lots are checked for type, format and condition so material is described accurately before it moves on.", icon: ScanSearch },
-  { title: "Responsible Segregation", text: "Material is separated by chemistry, format and condition to support appropriate downstream recovery.", icon: Layers },
-  { title: "Reliable Logistics", text: "Collection and dispatch are coordinated with suitable packing and transport arrangements.", icon: Truck },
-  { title: "Transparent Documentation", text: "Every transaction is supported by clear records of material, quantity and agreed terms.", icon: FileCheck },
-  { title: "Environmental Responsibility", text: "Our goal is simple: keep battery materials out of landfill and in productive use.", icon: Sprout },
+  { title: "Careful Handling", text: "Batteries are packed and stored to keep the risks of short circuits, leaks and impact damage as low as possible.", icon: HardHat },
+  { title: "Lot Inspection", text: "Every lot is checked for type, format and condition before it moves, so its description is accurate.", icon: ScanSearch },
+  { title: "Proper Segregation", text: "Sorting by chemistry, format and condition helps each lot reach a suitable recovery process.", icon: Layers },
+  { title: "Planned Logistics", text: "Pickups and dispatches are arranged with the right packing and transport for the material.", icon: Truck },
+  { title: "Clear Records", text: "Material, quantity and agreed terms are documented for every transaction.", icon: FileCheck },
+  { title: "Care for the Environment", text: "The aim is straightforward: keep battery materials in use and out of landfill.", icon: Sprout },
 ];
 
 /* -------------------------------------------------------------------------- */
@@ -116,19 +116,19 @@ export const qualityPillars: Feature[] = [
 /* -------------------------------------------------------------------------- */
 
 export const sustainabilityBenefits: Feature[] = [
-  { title: "Resource Recovery", text: "Valuable metals inside used batteries can be reclaimed instead of lost.", icon: Atom },
-  { title: "Reduced Waste", text: "Keeping batteries out of landfill and informal disposal reduces environmental risk.", icon: Leaf },
-  { title: "Circular Economy", text: "Materials flow back into manufacturing, closing the loop on battery production.", icon: RefreshCcw },
-  { title: "Responsible Material Use", text: "Recovered materials can reduce dependence on newly mined resources.", icon: Scale },
-  { title: "Cleaner Industrial Practices", text: "Structured scrap management helps businesses handle battery waste responsibly.", icon: Factory },
-  { title: "Sustainable Energy Ecosystem", text: "Responsible end-of-life handling strengthens the clean-energy transition.", icon: Sun },
+  { title: "Materials Reclaimed", text: "Metals locked inside used batteries can be recovered rather than lost for good.", icon: Atom },
+  { title: "Less Waste", text: "Diverting batteries from landfill and informal scrapping lowers environmental risk.", icon: Leaf },
+  { title: "A Closed Loop", text: "Recovered materials can feed back into manufacturing, closing the battery loop.", icon: RefreshCcw },
+  { title: "Less New Mining", text: "Reclaimed materials can ease reliance on freshly mined resources.", icon: Scale },
+  { title: "Better Industrial Habits", text: "Organised scrap management helps businesses deal with battery waste properly.", icon: Factory },
+  { title: "A Stronger Clean-Energy Chain", text: "Handling batteries well at end of life supports the wider shift to clean energy.", icon: Sun },
 ];
 
 export const sustainabilityPrinciples = [
-  { title: "Recover before discard", text: "Every battery is treated as a source of materials first — disposal is never the default." },
-  { title: "Handle with care", text: "Lithium-ion batteries demand respect. Safe packing, storage and movement come first." },
-  { title: "Be transparent", text: "Clear descriptions, honest evaluations and complete records build trust across the chain." },
-  { title: "Build for the long term", text: "Lasting relationships make responsible recovery consistent, not occasional." },
+  { title: "Recovery comes first", text: "We see every battery as a store of materials. Throwing it away is never our starting point." },
+  { title: "Safety is non-negotiable", text: "Lithium-ion batteries need careful treatment, so safe packing, storage and transport always come first." },
+  { title: "Say what we see", text: "Accurate descriptions, fair assessments and full records build trust with everyone in the chain." },
+  { title: "Think long term", text: "Steady relationships turn responsible recovery into a routine rather than a one-off." },
 ];
 
 /* -------------------------------------------------------------------------- */
@@ -136,13 +136,13 @@ export const sustainabilityPrinciples = [
 /* -------------------------------------------------------------------------- */
 
 export const circularStages: Feature[] = [
-  { title: "Battery Use", text: "Lithium-ion batteries power vehicles, electronics, storage systems and industrial equipment through their working life.", icon: BatteryCharging },
-  { title: "Collection", text: "At end of life — or as surplus and production scrap — batteries are collected from businesses and aggregators.", icon: Truck },
-  { title: "Sorting", text: "Material is inspected and segregated by chemistry, format and condition.", icon: Layers },
-  { title: "Recovery", text: "Suitable batteries are directed to recovery processes where valuable materials can be reclaimed.", icon: Atom },
-  { title: "Recycling", text: "Materials such as lithium, nickel, cobalt, copper and aluminium are processed for re-use, depending on chemistry.", icon: Recycle },
-  { title: "Reuse", text: "Reclaimed materials and serviceable components re-enter manufacturing and the wider value chain.", icon: RefreshCcw },
-  { title: "New Energy Value", text: "Waste becomes value again — supporting cleaner energy and a more circular economy.", icon: Sprout },
+  { title: "In Use", text: "Throughout their working life, lithium-ion batteries run vehicles, devices, storage systems and industrial machines.", icon: BatteryCharging },
+  { title: "Collection", text: "Once they reach end of life — or turn up as surplus or production scrap — batteries are gathered from businesses and aggregators.", icon: Truck },
+  { title: "Sorting", text: "Each lot is checked and separated by chemistry, format and condition.", icon: Layers },
+  { title: "Recovery", text: "Batteries suited to recovery are sent to processes that can reclaim their valuable materials.", icon: Atom },
+  { title: "Recycling", text: "Depending on chemistry, materials such as lithium, nickel, cobalt, copper and aluminium are processed for reuse.", icon: Recycle },
+  { title: "Reuse", text: "Recovered materials and still-usable parts return to manufacturing and the broader supply chain.", icon: RefreshCcw },
+  { title: "Renewed Value", text: "What was waste becomes useful again, supporting cleaner energy and a more circular economy.", icon: Sprout },
 ];
 
 /* -------------------------------------------------------------------------- */
@@ -150,21 +150,41 @@ export const circularStages: Feature[] = [
 /* -------------------------------------------------------------------------- */
 
 export const focusAreas = [
-  { title: "Responsible Sourcing", text: "Battery scrap sourced through accountable channels, with clear descriptions of material and condition." },
-  { title: "Battery Scrap Trading", text: "Lithium-ion cells, packs and modules bought and traded with transparent evaluation." },
-  { title: "Material Recovery", text: "Material directed toward channels where valuable resources can be reclaimed." },
-  { title: "Sustainability", text: "Every battery treated as a resource with a second purpose." },
-  { title: "Transparent Practices", text: "Clear terms, honest assessments and complete records in every transaction." },
-  { title: "Long-Term Partnerships", text: "Lasting relationships with the businesses we work with." },
-  { title: "Environmental Responsibility", text: "Keeping battery waste out of landfill and informal channels." },
+  { title: "Accountable Sourcing", text: "We source scrap through traceable channels and describe each lot's material and condition clearly." },
+  { title: "Scrap Trading", text: "We buy and trade lithium-ion cells, packs and modules on the basis of open, fair evaluation." },
+  { title: "Material Recovery", text: "We direct material to channels that can reclaim the resources inside it." },
+  { title: "Sustainability", text: "We treat every used battery as a resource with more to give." },
+  { title: "Open Practices", text: "Clear terms, fair assessments and complete paperwork in every deal." },
+  { title: "Lasting Partnerships", text: "We build long-running relationships with the businesses we serve." },
+  { title: "Environmental Care", text: "We keep battery waste away from landfill and informal scrapping." },
 ];
 
 export const values: Feature[] = [
-  { title: "Responsibility", text: "We take ownership of how battery materials are handled.", icon: ShieldCheck },
-  { title: "Transparency", text: "Clear communication and honest evaluation, always.", icon: Eye },
-  { title: "Quality", text: "Careful inspection and accurate descriptions in every lot.", icon: BadgeCheck },
-  { title: "Partnership", text: "Long-term relationships built on reliability.", icon: Handshake },
-  { title: "Progress", text: "Unnati means progress — for business and the planet.", icon: Sprout },
+  {
+    title: "Responsibility",
+    text: "We prioritize responsible battery scrap management through appropriate handling practices, careful material evaluation, and reliable recovery channels that support safer and more sustainable resource utilization.",
+    icon: ShieldCheck,
+  },
+  {
+    title: "Transparency",
+    text: "We believe strong business relationships begin with honesty. From material specifications and quality assessments to pricing discussions and transaction documentation, we value clarity at every stage of the trading process.",
+    icon: Eye,
+  },
+  {
+    title: "Quality & Integrity",
+    text: "We emphasize accurate material identification, consistent evaluation practices, and clear descriptions of battery cells, packs, and modules to help our business partners make informed commercial decisions.",
+    icon: BadgeCheck,
+  },
+  {
+    title: "Collaborative Partnerships",
+    text: "We build lasting relationships through dependable communication, mutual respect, and a shared commitment to sustainable business growth, creating opportunities for collaboration across the battery and recycling ecosystem.",
+    icon: Handshake,
+  },
+  {
+    title: "Sustainable Progress",
+    text: "Inspired by the meaning of Unnati—progress—we strive to advance responsible battery material trading, encourage circular resource utilization, and contribute to a future where valuable materials are given opportunities for recovery and reuse.",
+    icon: Sprout,
+  },
 ];
 
-export const heroChecks = ["Responsible sourcing", "Transparent transactions", "Bulk & industrial lots"];
+export const heroChecks = ["Accountable sourcing", "Documented transactions", "Bulk & industrial volumes"];

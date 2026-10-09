@@ -9,7 +9,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata = pageMetadata({
   title: "Blog — Battery Recycling Insights",
   description:
-    "Guides and insights on lithium-ion battery scrap, safe storage, battery chemistries and responsible recycling from UNNATI GREEN ENERGY.",
+    "Articles from UNNATI GREEN ENERGY on lithium-ion battery scrap: storing it safely, understanding chemistries and recycling it responsibly.",
   path: "/blog",
 });
 
@@ -21,8 +21,8 @@ export default function BlogPage() {
       <PageHero
         id="blog-hero"
         eyebrow="Blog"
-        title="Insights on Batteries, Safety & Sustainability"
-        description="Practical guidance and perspectives on lithium-ion battery scrap, responsible recovery and the circular energy economy."
+        title="Notes on Batteries, Safety & Recycling"
+        description="Useful advice and points of view on lithium-ion battery scrap, recovering it properly and keeping energy materials in the loop."
         image={photos.leafDark}
         crumbs={[{ label: "Blog", href: "/blog" }]}
         compact
@@ -31,7 +31,7 @@ export default function BlogPage() {
       <section aria-labelledby="blog-latest-title" className="section-y bg-white">
         <div className="container-site">
           <Reveal>
-            <SectionHeading id="blog-latest-title" eyebrow="Latest" title="Latest articles" />
+            <SectionHeading id="blog-latest-title" eyebrow="Latest" title="Recent articles" />
           </Reveal>
           {featured && (
             <Reveal className="mt-12">

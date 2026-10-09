@@ -18,8 +18,8 @@ export function ProductGrid({ id = "product-catalogue" }: { id?: string }) {
             id={`${id}-title`}
             split
             eyebrow="Product Range"
-            title="What we buy and trade"
-            description="Every category below is evaluated individually. If your material doesn't fit neatly into one, share the details — mixed lots are common."
+            title="The material we buy"
+            description="We assess each category on its own merits. If your material falls between categories, just send us the details. Mixed lots are very common."
           />
         </Reveal>
 
@@ -80,22 +80,22 @@ export function ProductGrid({ id = "product-catalogue" }: { id?: string }) {
 const factors = [
   {
     title: "Chemistry",
-    text: "NMC, LFP, LCO, LMO and others contain different materials, which shapes how each lot is valued and routed.",
+    text: "NMC, LFP, LCO, LMO and other chemistries contain different materials, which affects both value and where a lot is sent.",
     icon: Atom,
   },
   {
     title: "Format",
-    text: "Cells, packs or modules; cylindrical, prismatic or pouch — format affects handling and recovery.",
+    text: "Whether it's cells, packs or modules, and whether cells are cylindrical, prismatic or pouch, changes how material is handled and recovered.",
     icon: Boxes,
   },
   {
     title: "Condition",
-    text: "New, used, rejected or damaged — condition determines handling requirements and value.",
+    text: "New, used, rejected or damaged: the state of the material sets its handling needs and its value.",
     icon: ScanSearch,
   },
   {
     title: "Volume",
-    text: "One-time lots or recurring supply — quantity and frequency shape the commercial terms.",
+    text: "How much you have, and how often, shapes the commercial terms for a single lot or a regular supply.",
     icon: Weight,
   },
 ];
@@ -109,8 +109,8 @@ export function EvaluationFactors({ id = "evaluation" }: { id?: string }) {
             id={`${id}-title`}
             align="center"
             eyebrow="How We Evaluate"
-            title="Four factors behind every evaluation"
-            description="Transparent evaluation starts with understanding exactly what your material is."
+            title="The four things we look at"
+            description="A fair evaluation begins with knowing exactly what your material is."
           />
         </Reveal>
         <ul className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">

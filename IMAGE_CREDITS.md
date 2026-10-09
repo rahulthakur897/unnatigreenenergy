@@ -2,9 +2,9 @@
 
 ## Supplied by UNNATI GREEN ENERGY
 
-`public/assets/images/logo.png`, `banner.jpg` and `categories/*.jpg`.
+`public/assets/images/logo-horizontal.jpg` (the logo used across the site), `logo.png` (earlier stacked version, source of the favicon emblem), `banner.jpg` and `categories/*.jpg`.
 
-> `categories/ev-rickshaw.jpg` carries a third-party watermark ("E-V.in") and vehicle branding — replace it with a licensed or company-owned photo before launch.
+> Confirm the licence for `banner.jpg` and `categories/*.jpg` before launch. If they came from a stock site, keep a record of the licence (and add any attribution it requires) or replace them with company-owned photos.
 
 ## Stock photography — Unsplash License
 

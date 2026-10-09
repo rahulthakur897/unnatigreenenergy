@@ -80,7 +80,7 @@ async function IndustryContent({ params }: Pick<PageProps<"/industries/[slug]">,
                 <Eyebrow>Overview</Eyebrow>
               </div>
               <h2 id={`${pid}-overview`} className="mt-6 font-display text-[2rem] font-bold leading-[1.1] tracking-[-0.03em] text-ink-950 sm:text-[2.5rem]">
-                Responsible battery scrap management, built around your sector
+                Battery scrap handled the way your sector needs
               </h2>
               <div className="mt-6 space-y-4 text-lg leading-relaxed text-ink-500">
                 {industry.intro.map((paragraph) => (
@@ -90,7 +90,7 @@ async function IndustryContent({ params }: Pick<PageProps<"/industries/[slug]">,
             </Reveal>
 
             <Reveal className="mt-14">
-              <h3 className="font-display text-2xl font-bold tracking-tight text-ink-950">Battery scrap we typically handle</h3>
+              <h3 className="font-display text-2xl font-bold tracking-tight text-ink-950">What we usually collect</h3>
               <ul className="mt-6 grid gap-3 sm:grid-cols-2">
                 {industry.scrapTypes.map((item) => (
                   <li key={item} className="flex gap-3 rounded-xl border border-mist-200 bg-mist-50 p-4 text-[0.9375rem] text-ink-700">
@@ -104,7 +104,7 @@ async function IndustryContent({ params }: Pick<PageProps<"/industries/[slug]">,
             </Reveal>
 
             <Reveal className="mt-14">
-              <h3 className="font-display text-2xl font-bold tracking-tight text-ink-950">How we support {industry.title}</h3>
+              <h3 className="font-display text-2xl font-bold tracking-tight text-ink-950">How we help in {industry.title}</h3>
               <ul className="mt-6 grid gap-4 sm:grid-cols-3">
                 {industry.support.map((item, i) => (
                   <li key={item.title} className="rounded-[1.25rem] border border-mist-200 p-6">
@@ -137,7 +137,7 @@ async function IndustryContent({ params }: Pick<PageProps<"/industries/[slug]">,
           </ul>
 
           <Reveal className="mt-16 border-t border-mist-200 pt-10">
-            <h2 className="font-display text-lg font-bold text-ink-950">Other industries we serve</h2>
+            <h2 className="font-display text-lg font-bold text-ink-950">More industries we work with</h2>
             <ul className="mt-5 flex flex-wrap gap-2.5">
               {others.map((item) => (
                 <li key={item.slug}>

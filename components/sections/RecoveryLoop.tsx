@@ -6,11 +6,11 @@ import { useEffect, useRef, useState } from "react";
 import { cn, stepNumber } from "@/lib/utils";
 
 const STAGES = [
-  { label: "Battery", note: "End-of-life cells & packs", icon: BatteryCharging },
-  { label: "Recovery", note: "Collected, inspected & sorted", icon: ScanSearch },
-  { label: "Recycling", note: "Valuable materials reclaimed", icon: Recycle },
-  { label: "Reuse", note: "Back into the value chain", icon: RefreshCcw },
-  { label: "Sustainability", note: "Less waste, more value", icon: Leaf },
+  { label: "Battery", note: "Worn-out cells & packs", icon: BatteryCharging },
+  { label: "Recovery", note: "Picked up, checked & sorted", icon: ScanSearch },
+  { label: "Recycling", note: "Useful materials reclaimed", icon: Recycle },
+  { label: "Reuse", note: "Returned to the supply chain", icon: RefreshCcw },
+  { label: "Sustainability", note: "Less waste, more worth", icon: Leaf },
 ] as const;
 
 const STEP_MS = 2400;

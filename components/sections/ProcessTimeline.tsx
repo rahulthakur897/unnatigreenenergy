@@ -20,8 +20,8 @@ export function ProcessTimeline({ id = "process" }: { id?: string }) {
             align="center"
             tone="dark"
             eyebrow="How It Works"
-            title="From Battery Waste to Resource Recovery"
-            description="A clear, accountable process — from your first inquiry to the point where materials find new value."
+            title="Six Steps From Scrap to Recovered Material"
+            description="A simple, accountable process that runs from your first message to the moment the materials are put to use again."
           />
         </Reveal>
 

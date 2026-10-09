@@ -8,9 +8,9 @@ import { photos } from "@/lib/images";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
-  title: "Sustainability — Creating Value Beyond Waste",
+  title: "Sustainability — More Than Just Scrap",
   description:
-    "How responsible lithium-ion battery scrap management supports resource recovery, reduced waste and a circular energy economy.",
+    "Why handling lithium-ion battery scrap properly matters: reclaimed materials, less waste and a closed-loop energy economy.",
   path: "/sustainability",
 });
 
@@ -20,8 +20,8 @@ export default function SustainabilityPage() {
       <PageHero
         id="sustainability-hero"
         eyebrow="Sustainability"
-        title="Creating Value Beyond Waste"
-        description="Every lithium-ion battery that is recovered responsibly keeps valuable materials in use — and out of landfill."
+        title="More Than Just Scrap"
+        description="Each lithium-ion battery recovered the right way keeps useful materials working and out of landfill."
         image={photos.banner}
         crumbs={[{ label: "Sustainability", href: "/sustainability" }]}
       />
@@ -29,7 +29,7 @@ export default function SustainabilityPage() {
       <SustainabilityHighlights
         id="sustainability-benefits"
         eyebrow="Benefits"
-        title="What responsible recovery makes possible"
+        title="What proper recovery achieves"
         showLink={false}
         className="bg-mist-50"
       />

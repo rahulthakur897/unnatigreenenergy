@@ -8,19 +8,19 @@ export function SustainabilityIntro({ id = "sustainability-intro" }: { id?: stri
     <section aria-labelledby={`${id}-title`} className="section-y bg-white">
       <div className="container-site grid gap-12 lg:grid-cols-12 lg:gap-16">
         <Reveal className="lg:col-span-6">
-          <Eyebrow>Why It Matters</Eyebrow>
+          <Eyebrow>The Bigger Picture</Eyebrow>
           <h2 id={`${id}-title`} className="mt-5 font-display text-[2rem] font-bold leading-[1.08] tracking-[-0.03em] text-ink-950 sm:text-[2.5rem] lg:text-[3rem]">
-            The clean-energy transition runs on batteries. <span className="text-leaf-600">Their end of life matters too.</span>
+            Clean energy depends on batteries. <span className="text-leaf-600">So does what happens when they wear out.</span>
           </h2>
         </Reveal>
         <Reveal className="space-y-5 text-lg leading-relaxed text-ink-500 lg:col-span-6 lg:pt-12" delay={100}>
           <p>
-            Lithium-ion batteries power electric vehicles, store renewable energy and run the devices we rely on every day.
-            As adoption grows, so does the volume of batteries reaching the end of their working life.
+            Electric vehicles, solar and wind storage, and the gadgets in our pockets all run on lithium-ion batteries. The
+            more of them we use, the more of them reach the end of their working life each year.
           </p>
           <p>
-            Handled carelessly, battery waste is a safety and environmental risk. Handled responsibly, it is a source of
-            valuable materials that can return to the supply chain. That is the difference we work to make.
+            Treated carelessly, those batteries are a fire and pollution hazard. Treated properly, they are a supply of
+            valuable materials that can go back into new products. Making sure it&rsquo;s the second outcome is our job.
           </p>
         </Reveal>
       </div>
@@ -37,8 +37,8 @@ export function Principles({ id = "principles" }: { id?: string }) {
             id={`${id}-title`}
             split
             eyebrow="Our Principles"
-            title="Four principles guide our sustainability approach"
-            description="They shape how we evaluate, handle and route every lot of battery scrap."
+            title="Four rules we work by"
+            description="They decide how we assess, handle and send on each lot of battery scrap."
           />
         </Reveal>
         <ol className="mt-14 grid gap-5 md:grid-cols-2">

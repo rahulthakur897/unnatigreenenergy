@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import type { BlogPost } from "@/content/blog";
+import { logo } from "@/lib/brand";
 import { site } from "@/lib/site";
 
 type PageMetaInput = {
@@ -50,7 +51,7 @@ export function organizationSchema() {
     name: site.name,
     legalName: site.legalName,
     url: absoluteUrl("/"),
-    logo: absoluteUrl("/assets/images/brand/unnati-logo.png"),
+    logo: absoluteUrl(logo.src),
     slogan: site.tagline,
     description: site.description,
     knowsAbout: [

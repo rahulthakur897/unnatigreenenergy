@@ -28,9 +28,9 @@ const AUTHOR = "UNNATI GREEN ENERGY Team";
 export const posts: BlogPost[] = [
   {
     slug: "how-to-safely-store-and-pack-lithium-ion-battery-scrap",
-    title: "How to Safely Store and Pack Lithium-Ion Battery Scrap",
+    title: "Storing and Packing Lithium-Ion Battery Scrap Safely: A Practical Guide",
     excerpt:
-      "Simple, practical habits that reduce fire and short-circuit risks while lithium-ion battery scrap waits for collection.",
+      "Lithium-ion scrap waiting for pickup can still short-circuit or overheat. These everyday precautions keep the risk low.",
     category: "Safety",
     date: "2026-10-08", // TODO: Set the actual publication date
     author: AUTHOR,
@@ -38,74 +38,74 @@ export const posts: BlogPost[] = [
     body: [
       {
         paragraphs: [
-          "A lithium-ion battery at the end of its working life is not an empty one. Most still hold some charge, and a damaged, crushed or short-circuited cell can overheat — sometimes enough to start a fire. The good news: a few disciplined habits dramatically reduce that risk while scrap waits to be collected.",
-          "This guide covers the basics we recommend to every business that stores lithium-ion battery scrap, whether it is a few kilograms of phone batteries or tonnes of production rejects.",
+          "It is easy to assume that a used lithium-ion battery is a dead one. In practice, most scrap batteries still carry some charge, and a cell that has been dented, crushed or shorted can heat up quickly enough to catch fire. Fortunately, most of that risk can be managed with a handful of simple routines.",
+          "Below are the precautions we suggest to any business holding lithium-ion scrap, whether that means one carton of old phone batteries or several pallets of factory rejects.",
         ],
       },
       {
-        heading: "1. Protect the terminals",
+        heading: "Cover exposed terminals",
         paragraphs: [
-          "Exposed terminals are the most common cause of short circuits in stored batteries. Make sure terminals cannot touch each other, metal tools or conductive surfaces.",
+          "Short circuits in storage usually start when a battery's terminals touch each other, a metal object or a conductive surface. Stop that from happening and you remove one of the biggest hazards.",
         ],
         list: [
-          "Cover exposed terminals and connectors with insulating tape",
-          "Bag small batteries individually where practical",
-          "Never store loose batteries in metal containers",
+          "Tape over bare terminals and connectors with insulating tape",
+          "Put small batteries in their own bags wherever you can",
+          "Keep loose batteries out of metal bins and drums",
         ],
       },
       {
-        heading: "2. Separate damaged batteries",
+        heading: "Keep damaged batteries apart",
         paragraphs: [
-          "Swollen, leaking, punctured, dented or heat-damaged batteries carry a higher risk. Keep them apart from intact batteries in a separate non-combustible container, and tell your scrap buyer about them before collection — they may need different packing.",
+          "Batteries that are swollen, leaking, punctured, dented or scorched are more likely to fail. Store them away from intact batteries in their own non-combustible container, and mention them to your buyer before pickup, as they may need special packing.",
         ],
       },
       {
-        heading: "3. Choose the right storage area",
+        heading: "Pick a suitable storage spot",
         list: [
-          "Cool, dry and well ventilated",
-          "Away from direct sunlight, heaters and other heat sources",
-          "Away from flammable materials such as cardboard stacks, solvents and fuels",
-          "Protected from rain, flooding and high humidity",
-          "Accessible, with clear walkways and no heavy loads stacked on top",
+          "Somewhere cool and dry with good airflow",
+          "Out of direct sun and well away from heaters or other heat sources",
+          "Clear of anything flammable, such as stacked cardboard, solvents or fuel",
+          "Sheltered from rain, standing water and damp",
+          "Easy to reach, with clear access and nothing heavy piled on top",
         ],
       },
       {
-        heading: "4. Use suitable containers",
+        heading: "Choose sturdy, non-conductive containers",
         paragraphs: [
-          "Store batteries in sturdy, non-conductive containers that will not crush under load. Fill empty space with non-conductive cushioning so batteries cannot shift, rub or puncture each other during handling.",
+          "Use strong containers made from non-conductive material that won't collapse when stacked. Pack any gaps with non-conductive padding so the batteries can't slide around, rub together or pierce one another when the container is moved.",
         ],
       },
       {
-        heading: "5. Label and keep records",
+        heading: "Label every container and keep a log",
         paragraphs: [
-          "Label each container with the battery type, approximate weight and condition, and keep a simple log of what is stored. Good records make evaluation faster, collection safer and give you a clear audit trail.",
+          "Mark each container with the type of battery, a rough weight and its condition, and keep a basic record of what you have in storage. A good log speeds up evaluation, makes pickups safer and leaves you with a clear paper trail.",
         ],
       },
       {
-        heading: "6. Plan collection before dispatch",
+        heading: "Agree the details before anything leaves your site",
         paragraphs: [
-          "Lithium batteries are regulated as dangerous goods in transport, and damaged batteries can carry additional requirements. Agree packing, labelling and documentation with your scrap buyer before material leaves your site.",
+          "Lithium batteries are classed as dangerous goods for transport, and damaged ones may come with extra rules. Settle packing, labelling and paperwork with your scrap buyer before the material is collected.",
         ],
       },
       {
-        heading: "7. Be prepared for emergencies",
+        heading: "Have an emergency plan",
         paragraphs: [
-          "Make sure your team knows what to do if a battery starts to smoke, swell rapidly or catch fire: keep people clear, raise the alarm and follow your site's fire-safety procedures. Keep the storage area accessible to emergency responders.",
+          "Make sure everyone on site knows what to do if a battery begins to smoke, swell suddenly or ignite: move people away, raise the alarm and follow your fire-safety procedure. Keep the storage area clear so emergency services can get to it.",
         ],
       },
       {
-        heading: "The bottom line",
+        heading: "In short",
         paragraphs: [
-          "Most battery incidents in storage are preventable. Protect terminals, isolate damaged units, keep storage cool and organised, and plan collection early. If you are unsure how to prepare a particular lot, our team is happy to advise before collection.",
+          "Nearly every storage incident involving batteries can be avoided. Cover the terminals, separate damaged units, keep the area cool and tidy, and arrange collection in good time. If you're not sure how to prepare a particular lot, ask our team before pickup and we'll advise.",
         ],
       },
     ],
   },
   {
     slug: "understanding-lithium-ion-battery-chemistries",
-    title: "Understanding Lithium-Ion Chemistries: NMC, LFP, LCO and Beyond",
+    title: "NMC, LFP, LCO and More: A Plain-English Guide to Lithium-Ion Chemistries",
     excerpt:
-      "“Lithium-ion” is a family, not a single battery. Here's how the common chemistries differ — and why it matters at end of life.",
+      "Not all lithium-ion batteries are alike. A quick look at the main chemistries, and why the differences count when a battery is scrapped.",
     category: "Insights",
     date: "2026-10-08", // TODO: Set the actual publication date
     author: AUTHOR,
@@ -113,68 +113,68 @@ export const posts: BlogPost[] = [
     body: [
       {
         paragraphs: [
-          "“Lithium-ion” describes a family of rechargeable batteries rather than a single design. Every lithium-ion cell works on the same principle — lithium ions moving between two electrodes as the battery charges and discharges — but the materials used, especially in the cathode, vary widely.",
-          "Those materials shape how a battery performs in daily use. They also determine what can be recovered when it reaches end of life, which is why chemistry matters so much in battery scrap trading.",
+          "“Lithium-ion” is an umbrella term. Every lithium-ion cell works the same basic way, with lithium ions travelling from one electrode to the other as it charges and back again as it discharges. What changes from one battery to the next is the choice of materials, above all in the cathode.",
+          "Those materials decide how a battery behaves while it is in service. They also decide what can be recovered from it at the end, which is why chemistry is one of the first things we ask about when we evaluate scrap.",
         ],
       },
       {
-        heading: "NMC — lithium nickel manganese cobalt oxide",
+        heading: "NMC (nickel manganese cobalt)",
         paragraphs: [
-          "NMC offers high energy density, which is why it is widely used in electric vehicles, e-bikes and power tools. Its cathode contains nickel, manganese and cobalt — metals with significant recovery value.",
+          "NMC packs a lot of energy into a small space, so it is a common choice for electric vehicles, e-bikes and power tools. Its cathode contains nickel, manganese and cobalt, all of which are valuable to recover.",
         ],
       },
       {
-        heading: "LFP — lithium iron phosphate",
+        heading: "LFP (lithium iron phosphate)",
         paragraphs: [
-          "LFP is valued for long cycle life, thermal stability and safety. It is increasingly common in energy storage systems, electric buses, two- and three-wheelers and some passenger cars. LFP cathodes contain no nickel or cobalt, which changes how the material is valued and processed at end of life.",
+          "LFP is known for lasting through many charge cycles and for being thermally stable. It is now widely used in energy storage, electric buses, two- and three-wheelers and some cars. Because an LFP cathode has no nickel or cobalt, it is valued and processed differently from other chemistries at end of life.",
         ],
       },
       {
-        heading: "LCO — lithium cobalt oxide",
+        heading: "LCO (lithium cobalt oxide)",
         paragraphs: [
-          "LCO has long been used in smartphones, laptops, cameras and other portable electronics, where compact size matters most. Its cathode is rich in cobalt.",
+          "For many years LCO has been the go-to chemistry for phones, laptops, cameras and other portable devices where small size matters. Its cathode is high in cobalt.",
         ],
       },
       {
-        heading: "LMO and NCA",
+        heading: "LMO, NCA and LTO",
         paragraphs: [
-          "LMO (lithium manganese oxide) appears in some power tools and medical devices, and is often blended with NMC. NCA (lithium nickel cobalt aluminium oxide) is used in some electric vehicles for its high energy density.",
+          "LMO (lithium manganese oxide) turns up in some power tools and medical equipment, and is often mixed with NMC. NCA (nickel cobalt aluminium) is used in certain electric vehicles because of its high energy density. LTO (lithium titanate) differs in that it changes the anode rather than the cathode, and is chosen for very long life and fast charging in some specialist uses.",
         ],
       },
       {
-        heading: "Formats matter too",
-        paragraphs: ["Chemistry is only half of the picture. Cells also come in different formats:"],
+        heading: "The shape of the cell matters too",
+        paragraphs: ["Chemistry tells only part of the story. Cells are also made in several physical formats:"],
         list: [
-          "Cylindrical — such as 18650, 21700 and 26650 cells",
-          "Prismatic — rigid rectangular cells, common in EVs and energy storage",
-          "Pouch — flexible laminated cells used in phones, tablets and some EVs",
+          "Cylindrical, for example 18650, 21700 and 26650 cells",
+          "Prismatic: hard-cased rectangular cells, often found in EVs and storage systems",
+          "Pouch: soft, flat cells used in phones, tablets and some vehicles",
         ],
       },
       {
-        heading: "Why chemistry matters at end of life",
+        heading: "Why it matters when a battery is scrapped",
         paragraphs: [
-          "Different chemistries contain different materials and suit different recovery processes. Segregating batteries by chemistry and format helps each lot reach the right downstream channel and allows a more accurate evaluation. To identify what you have:",
+          "Each chemistry contains its own mix of materials and is suited to particular recovery processes. Separating batteries by chemistry and format helps every lot reach the right place and makes the evaluation more accurate. To find out what you have:",
         ],
         list: [
-          "Check labels and markings on the cell or pack",
-          "Refer to datasheets or purchase records",
-          "Note model numbers and the original application",
-          "Share clear photographs if you are unsure",
+          "Look for labels and markings on the cell or pack",
+          "Check the datasheet or your purchase records",
+          "Write down model numbers and what the battery was used in",
+          "Take clear photos if you're still unsure",
         ],
       },
       {
-        heading: "Not sure what you have?",
+        heading: "Still can't tell?",
         paragraphs: [
-          "Mixed and unlabelled lots are common. Share photographs and whatever details you have, and our team will help identify the material before evaluation.",
+          "Mixed and unmarked lots are very common. Send us photos and any details you have, and our team will help identify the material before we evaluate it.",
         ],
       },
     ],
   },
   {
     slug: "why-responsible-battery-recycling-matters-in-india",
-    title: "Why Responsible Battery Recycling Matters for India's Clean-Energy Future",
+    title: "Responsible Battery Recycling and India's Clean-Energy Future",
     excerpt:
-      "As India electrifies transport and adds energy storage, the batteries behind the transition need a responsible end-of-life pathway.",
+      "India is electrifying its transport and adding energy storage at pace. The batteries that make this possible need a responsible route at end of life.",
     category: "Sustainability",
     date: "2026-10-08", // TODO: Set the actual publication date
     author: AUTHOR,
@@ -182,48 +182,48 @@ export const posts: BlogPost[] = [
     body: [
       {
         paragraphs: [
-          "Electric two- and three-wheelers, e-rickshaws, rooftop solar with battery backup, telecom towers and the phones and laptops we rely on every day — lithium-ion batteries are fast becoming part of everyday life in India. Every one of them will eventually reach the end of its working life.",
-          "What happens next matters. Handled responsibly, used batteries are a valuable source of materials. Handled carelessly, they are a safety and environmental hazard.",
+          "Think of the e-rickshaws and electric scooters on Indian roads, the rooftop solar systems with battery backup, the telecom towers, and the phones and laptops in every home and office. Lithium-ion batteries are now part of daily life across India, and each one will eventually be worn out.",
+          "What we do with them at that point makes a real difference. Managed well, old batteries are a valuable supply of materials. Managed badly, they put people and the environment at risk.",
         ],
       },
       {
-        heading: "Used batteries are a resource",
+        heading: "Old batteries are worth something",
         paragraphs: [
-          "Depending on chemistry, lithium-ion batteries contain lithium, nickel, cobalt, manganese, copper, aluminium and graphite. Recovering these materials keeps them in productive use and can reduce dependence on newly mined — and often imported — raw materials.",
+          "Depending on chemistry, a lithium-ion battery can contain lithium, nickel, cobalt, manganese, copper, aluminium and graphite. Recovering these keeps them in use and can lower the need for newly mined raw materials, many of which India currently imports.",
         ],
       },
       {
-        heading: "The cost of informal disposal",
+        heading: "The hidden cost of careless disposal",
         paragraphs: [
-          "Batteries thrown away with general waste, or dismantled without proper controls, can short-circuit and catch fire in waste vehicles and facilities. Damaged cells can also release hazardous substances. Responsible channels reduce these risks for workers, communities and the environment.",
+          "Batteries dumped with household or commercial waste, or broken apart without proper controls, can short-circuit and start fires in collection vehicles and waste sites. Damaged cells can also leak harmful substances. Responsible channels cut these risks for workers, neighbourhoods and the environment.",
         ],
       },
       {
-        heading: "Regulation is raising the bar",
+        heading: "The rules are getting stricter",
         paragraphs: [
-          "India's Battery Waste Management Rules, 2022 introduced Extended Producer Responsibility (EPR) for batteries, making producers responsible for the collection and recycling or refurbishment of the batteries they place on the market. The framework encourages a more organised, accountable battery value chain.",
+          "The Battery Waste Management Rules, 2022, issued by India's Ministry of Environment, Forest and Climate Change, replaced the earlier 2001 rules and brought in Extended Producer Responsibility (EPR) for batteries. Producers are now responsible for making sure the batteries they sell are collected and then recycled or refurbished. The aim is a better-organised, more accountable battery supply chain.",
         ],
       },
       {
-        heading: "Where battery scrap traders fit in",
+        heading: "The role of a battery scrap trader",
         paragraphs: [
-          "Between the businesses that generate battery scrap and the facilities that recover its materials sits a crucial link: accurate identification, segregation, documentation and logistics. Done well, this step ensures material reaches the right process — and that every party has a clear record of where it went.",
+          "Between the businesses that produce battery scrap and the plants that recover its materials, someone has to identify the batteries correctly, sort them, document them and move them. When that link works well, material reaches a suitable process and everyone involved has a clear record of where it went.",
         ],
       },
       {
-        heading: "What businesses can do today",
+        heading: "Steps any business can take now",
         list: [
-          "Designate a safe, organised storage area for battery scrap",
-          "Segregate batteries by type and condition",
-          "Keep simple records of quantities and dispatches",
-          "Work with accountable partners who document every transaction",
-          "Plan regular collections rather than letting stock accumulate",
+          "Set aside a safe, tidy area for storing battery scrap",
+          "Sort batteries by type and by condition",
+          "Keep a basic log of quantities stored and dispatched",
+          "Deal only with partners who document every transaction",
+          "Book regular pickups instead of letting stock build up",
         ],
       },
       {
         heading: "Waste today, value tomorrow",
         paragraphs: [
-          "The clean-energy transition will be measured not only by how many batteries we deploy, but by how responsibly we manage them at end of life. Every battery recovered properly keeps valuable materials in the economy and out of landfill — a future worth building.",
+          "India's move to clean energy will be judged not just by how many batteries it puts to work, but by how well it looks after them once they wear out. Each battery recovered properly keeps useful materials in the economy and out of landfill. That is a future worth working toward.",
         ],
       },
     ],

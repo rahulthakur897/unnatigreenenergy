@@ -8,7 +8,7 @@ import { quoteHref } from "@/lib/site";
 export const metadata = pageMetadata({
   title: "Our Products — Lithium-Ion Cells & Battery Scrap",
   description:
-    "Lithium-ion cells, battery packs and modules, EV and e-rickshaw batteries, energy storage, LED, medical, consumer electronics and industrial battery scrap traded by UNNATI GREEN ENERGY.",
+    "UNNATI GREEN ENERGY buys lithium-ion cells, packs and modules, EV and e-rickshaw batteries, and battery scrap from energy storage, lighting, medical, consumer electronics and industrial sources.",
   path: "/products",
 });
 
@@ -18,8 +18,8 @@ export default function ProductsPage() {
       <PageHero
         id="products-hero"
         eyebrow="Our Products"
-        title="Lithium-Ion Cells & Battery Scrap We Trade"
-        description="Cells, packs and modules across chemistries, formats and applications — each lot evaluated transparently and routed responsibly."
+        title="The Cells and Battery Scrap We Buy"
+        description="Cells, packs and modules of almost every chemistry, format and use. Each lot is assessed openly and sent on to the right place."
         image={photos.batteryModules}
         crumbs={[{ label: "Our Products", href: "/products" }]}
       >

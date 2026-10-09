@@ -5,18 +5,18 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 
 const challenges = [
   {
-    title: "Scrap that keeps accumulating",
-    text: "Rejected cells, returns and end-of-life packs take up space and add risk. We provide a planned, dependable outlet.",
+    title: "Scrap piling up",
+    text: "Rejected cells, returns and worn-out packs eat up floor space and add risk. We give you a regular, reliable way to clear them.",
     icon: Package,
   },
   {
-    title: "Uncertain value",
-    text: "Battery scrap varies widely. Clear evaluation by type, chemistry and condition shows how your material is valued.",
+    title: "Not knowing what it's worth",
+    text: "No two lots of battery scrap are the same. We assess type, chemistry and condition and show you how we reached our figure.",
     icon: Scale,
   },
   {
-    title: "Handling and safety concerns",
-    text: "Lithium-ion batteries need care. We share packing guidance and coordinate movement responsibly.",
+    title: "Worries about safety",
+    text: "Lithium-ion batteries have to be handled with care. We advise on packing and arrange transport responsibly.",
     icon: HardHat,
   },
 ];
@@ -29,8 +29,8 @@ export function Challenges({ id = "challenges" }: { id?: string }) {
           <SectionHeading
             id={`${id}-title`}
             align="center"
-            eyebrow="Common Challenges"
-            title="Whatever your sector, the challenges are familiar"
+            eyebrow="Familiar Problems"
+            title="Different industries, the same headaches"
           />
         </Reveal>
         <ul className="mt-14 grid gap-5 md:grid-cols-3">

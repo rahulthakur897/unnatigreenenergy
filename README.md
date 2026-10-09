@@ -65,6 +65,6 @@ Search the codebase for `TODO` to find every item. In particular:
 
 ## Notes
 
-- **Logo**: `public/assets/images/brand/unnati-logo.png` is the supplied logo with transparent padding trimmed — artwork unchanged. Its text is dark, so it is always placed on a white surface. Favicons (`app/icon.png`, `app/apple-icon.png`, `app/favicon.ico`) use the logo's emblem.
+- **Logo**: `public/assets/images/brand/unnati-logo-horizontal.png` is the supplied horizontal logo (`public/assets/images/logo-horizontal.jpg`) with its flat background made transparent and trimmed — artwork unchanged. Its text is dark, so it is always placed on a white surface. The share images (`app/opengraph-image.png`, `app/twitter-image.png`) use the same logo. Favicons (`app/icon.png`, `app/apple-icon.png`, `app/favicon.ico`) use the logo's emblem.
 - **Photography**: supplied images live in `public/assets/images/`; stock photos are listed in `IMAGE_CREDITS.md`.
 - **Accessibility & motion**: all animations respect `prefers-reduced-motion`; auto-advancing elements can be paused.

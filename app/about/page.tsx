@@ -8,7 +8,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata = pageMetadata({
   title: "About Us",
   description:
-    "Learn about UNNATI GREEN ENERGY — a lithium-ion cell and battery scrap trading company helping businesses manage battery waste responsibly and recover valuable materials.",
+    "Meet UNNATI GREEN ENERGY, a lithium-ion cell and battery scrap trader that helps businesses dispose of batteries properly and get valuable materials back into use.",
   path: "/about",
 });
 

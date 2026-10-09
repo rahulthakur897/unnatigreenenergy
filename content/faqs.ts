@@ -2,38 +2,38 @@ export type Faq = { question: string; answer: string };
 
 export const faqs: Faq[] = [
   {
-    question: "What types of lithium-ion battery scrap do you trade?",
+    question: "Which kinds of lithium-ion battery scrap do you deal in?",
     answer:
-      "We trade a wide range of lithium-ion battery scrap — loose cylindrical, prismatic and pouch cells, battery packs and modules, EV and e-rickshaw batteries, energy storage batteries, and batteries from consumer electronics, lighting and industrial equipment. If you're unsure how to classify your material, share photographs and details and our team will help identify it.",
+      "Most kinds. That includes loose cylindrical, prismatic and pouch cells; assembled packs and modules; batteries from EVs and e-rickshaws; energy storage and inverter batteries; and batteries taken out of consumer electronics, lighting products and industrial equipment. If you can't tell exactly what you have, send us a few photos and whatever details you know, and we'll help you work it out.",
   },
   {
-    question: "Do you handle bulk quantities?",
+    question: "Can you take large quantities?",
     answer:
-      "Yes. We work with one-time clearances as well as recurring volumes from manufacturers, aggregators and industrial businesses. Share your estimated quantity and how often material is generated, and we'll plan the transaction around it.",
+      "Yes. We handle single clear-outs as well as regular, ongoing volumes from manufacturers, aggregators and industrial sites. Let us know roughly how much material you have and how often it builds up, and we'll plan around that.",
   },
   {
-    question: "How can I sell battery scrap to UNNATI GREEN ENERGY?",
+    question: "How do I sell my battery scrap to UNNATI GREEN ENERGY?",
     answer:
-      "Submit an inquiry through our quote form or contact our team directly. Tell us the battery type, approximate quantity, condition and location. We'll review the details, discuss the evaluation and share the next steps.",
+      "Fill in the quote form or get in touch with our team. Tell us the type of battery, an approximate quantity, its condition and where it is located. We'll look over the details, talk you through our evaluation and explain what happens next.",
   },
   {
-    question: "What information is required for a quotation?",
+    question: "What details do you need to give me a quote?",
     answer:
-      "Helpful details include the battery type or chemistry (if known), the format (cells, packs or modules), approximate weight or count, condition, photographs, packing status and pickup location. The more detail you share, the more accurate our response can be.",
+      "Useful information includes the chemistry or battery type (if you know it), whether it is cells, packs or modules, an approximate weight or unit count, its condition, how it is packed, a few photos and the pickup location. The more you share, the more precise our quote can be.",
   },
   {
-    question: "Do you work with industrial clients?",
+    question: "Do you work with industrial businesses?",
     answer:
-      "Yes. We work with battery manufacturers, EV and mobility companies, energy storage businesses, electronics companies and other industrial generators of battery scrap, as well as aggregators and traders.",
+      "Yes. Our clients include battery makers, EV and mobility companies, energy storage businesses, electronics firms and other industrial sites that generate battery scrap, along with aggregators and traders.",
   },
   {
-    question: "How does the battery scrap collection process work?",
+    question: "What happens during a battery scrap pickup?",
     answer:
-      "Once terms are agreed, we coordinate the collection schedule, packing requirements and documentation with you. Material is handled with care during loading and movement, then inspected and segregated before it moves on to appropriate recovery channels.",
+      "Once we've agreed terms, we arrange the pickup date, packing requirements and paperwork with you. The material is loaded and transported carefully, then inspected and sorted before it moves on to suitable recovery channels.",
   },
   {
-    question: "Do you provide customized solutions?",
+    question: "Can you tailor the arrangement to our needs?",
     answer:
-      "Yes. Requirements differ by industry and volume, so collection schedules, packing guidance and commercial terms can be tailored to your situation. Speak to our team to discuss what you need.",
+      "Yes. Every industry and volume is different, so pickup schedules, packing guidance and commercial terms can all be adjusted to suit you. Talk to our team about what would work best.",
   },
 ];

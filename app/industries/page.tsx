@@ -10,7 +10,7 @@ import { quoteHref } from "@/lib/site";
 export const metadata = pageMetadata({
   title: "Industries We Serve",
   description:
-    "Battery scrap solutions for EV and electric mobility, battery manufacturers, energy storage, automotive, electronics, renewable energy, industrial equipment and consumer electronics.",
+    "How UNNATI GREEN ENERGY handles battery scrap for EV makers, battery manufacturers, energy storage, automotive, electronics, renewable energy, industrial equipment and consumer electronics.",
   path: "/industries",
 });
 
@@ -21,19 +21,19 @@ export default function IndustriesPage() {
         id="industries-hero"
         eyebrow="Industries"
         title="Industries We Serve"
-        description="Lithium-ion batteries power almost every modern industry. We help each one manage battery scrap responsibly — and recover the value inside it."
+        description="From vehicles to factories to the phone in your hand, lithium-ion batteries are everywhere. Whatever your industry, we can take your battery scrap and recover its value."
         image={photos.industrialBatteries}
         crumbs={[{ label: "Industries", href: "/industries" }]}
       >
         <ButtonLink href={quoteHref} variant="accent" size="lg" arrow>
-          Discuss Your Requirements
+          Tell Us What You Need
         </ButtonLink>
       </PageHero>
       <IndustriesGrid
         id="industries-list"
         eyebrow="Sectors"
-        title="Sector understanding, one responsible standard"
-        description="Every industry generates battery scrap differently. Select a sector to see the material we typically handle and how we support it."
+        title="Know-how for each sector, one standard for all"
+        description="Each industry ends up with battery scrap in its own way. Pick a sector to see the material we usually handle there and how we help."
         showLink={false}
       />
       <Challenges id="industries-challenges" />

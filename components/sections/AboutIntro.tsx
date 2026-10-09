@@ -7,12 +7,12 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { photos } from "@/lib/images";
 
 const focus = [
-  "Responsible sourcing",
-  "Battery scrap trading",
-  "Material recovery",
-  "Transparent business practices",
-  "Long-term partnerships",
-  "Environmental responsibility",
+  "Accountable sourcing",
+  "Lithium-ion scrap trading",
+  "Recovery of valuable materials",
+  "Open, documented dealings",
+  "Partnerships that last",
+  "Care for the environment",
 ];
 
 export function AboutIntro({ id = "about" }: { id?: string }) {
@@ -55,7 +55,7 @@ export function AboutIntro({ id = "about" }: { id?: string }) {
                 </p>
               </div>
               <p className="mt-3 text-sm leading-relaxed text-ink-500">
-                Every end-of-life battery still holds materials worth recovering.
+                A worn-out battery is still full of materials worth getting back.
               </p>
             </div>
           </div>
@@ -63,21 +63,21 @@ export function AboutIntro({ id = "about" }: { id?: string }) {
 
         <div className="lg:col-span-6">
           <Reveal>
-            <SectionHeading id={`${id}-title`} eyebrow="About Us" title="Building a More Sustainable Energy Cycle" />
+            <SectionHeading id={`${id}-title`} eyebrow="About Us" title="Where Used Batteries Find Their Next Use" />
             <p className="mt-6 inline-flex flex-wrap items-center gap-x-2 rounded-full bg-leaf-50 px-4 py-2 text-[0.8125rem] font-semibold text-forest-700 ring-1 ring-leaf-100">
-              Green Energy <span aria-hidden="true" className="text-leaf-400">•</span> Circular Economy{" "}
-              <span aria-hidden="true" className="text-leaf-400">•</span> Responsible Recovery
+              Clean Energy <span aria-hidden="true" className="text-leaf-400">•</span> Closed-Loop Thinking{" "}
+              <span aria-hidden="true" className="text-leaf-400">•</span> Careful Recovery
             </p>
           </Reveal>
           <Reveal delay={80}>
             <p className="mt-7 text-lg leading-relaxed text-ink-600">
-              UNNATI GREEN ENERGY works in lithium-ion cell and battery scrap trading — helping businesses responsibly manage
-              battery waste while maximizing material recovery and supporting the circular economy.
+              UNNATI GREEN ENERGY trades lithium-ion cells and battery scrap. We give businesses a proper way to deal with
+              their battery waste, so that as much material as possible is recovered and put back to work.
             </p>
             <p className="mt-4 leading-relaxed text-ink-500">
-              End-of-life lithium-ion batteries still contain valuable materials such as lithium, nickel, cobalt, copper and
-              aluminium, depending on chemistry. We connect the businesses that generate battery scrap with channels that can
-              recover these materials — through transparent evaluation, careful handling and long-term relationships.
+              Even a worn-out lithium-ion battery holds useful materials, including lithium, nickel, cobalt, copper and
+              aluminium, depending on its chemistry. We link the businesses that produce battery scrap with the channels that
+              can reclaim those materials, backed by open evaluation, careful handling and relationships built to last.
             </p>
           </Reveal>
           <Reveal delay={160}>
@@ -92,7 +92,7 @@ export function AboutIntro({ id = "about" }: { id?: string }) {
               ))}
             </ul>
             <ButtonLink href="/about" variant="primary" size="lg" arrow className="mt-10">
-              Discover Our Story
+              Read Our Story
             </ButtonLink>
           </Reveal>
         </div>

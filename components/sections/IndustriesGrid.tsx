@@ -9,7 +9,7 @@ export function IndustriesGrid({
   id = "industries",
   eyebrow = "Industries",
   title = "Industries We Serve",
-  description = "Lithium-ion batteries power almost every modern industry. We help each of them handle battery scrap responsibly — and recover the value inside it.",
+  description = "Nearly every modern industry depends on lithium-ion batteries. Whatever your sector, we can help you deal with battery scrap properly and get value back from it.",
   showLink = true,
   className,
 }: {

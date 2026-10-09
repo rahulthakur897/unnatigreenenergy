@@ -60,8 +60,8 @@ export function ContactSection({
             <SectionHeading
               id={`${id}-title`}
               eyebrow="Contact"
-              title="Let's Talk About Your Battery Scrap Requirements"
-              description="Tell us about your material and our team will get back to you with next steps. For urgent requirements, reach us directly."
+              title="Tell Us What Battery Scrap You Have"
+              description="Share a few details and our team will come back to you with the next steps. If it's urgent, call or email us directly."
             />
           </Reveal>
           {/* TODO: Contact details are placeholders — update them in lib/site.ts. */}
@@ -94,7 +94,7 @@ export function ContactSection({
                 </p>
               </div>
               <p className="mt-2 text-[0.9375rem] leading-relaxed text-ink-500">
-                Share a few details about your battery scrap — the more you tell us, the more accurate our response.
+                Describe your battery scrap below. The more detail you give, the more precise our reply will be.
               </p>
               <div className="mt-8">
                 <ContactForm />

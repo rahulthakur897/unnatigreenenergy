@@ -18,12 +18,12 @@ export function StatsBand({ id = "stats", className }: { id?: string; className?
 
             <div className="grid gap-12 lg:grid-cols-12 lg:items-center">
               <div className="lg:col-span-4">
-                <Eyebrow tone="dark">By the Numbers</Eyebrow>
+                <Eyebrow tone="dark">Our Numbers</Eyebrow>
                 <h2 id={`${id}-title`} className="mt-4 font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-                  Progress you can measure
+                  Our work in figures
                 </h2>
                 <p className="mt-4 max-w-sm leading-relaxed text-white/65">
-                  Key figures from our operations, updated as we grow.
+                  A snapshot of what we&rsquo;ve done so far, refreshed as the business grows.
                 </p>
                 {/* TODO: Remove once every figure in content/placeholders.ts is verified. */}
                 {hasPlaceholders && <PlaceholderTag tone="dark" className="mt-5" />}

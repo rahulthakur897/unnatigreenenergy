@@ -10,8 +10,8 @@ export function Testimonials({ id = "testimonials" }: { id?: string }) {
           <SectionHeading
             id={`${id}-title`}
             eyebrow="Testimonials"
-            title="What Our Partners Say"
-            description="Feedback from the businesses we work with. Genuine testimonials will be published here with each client's permission."
+            title="In Our Clients' Words"
+            description="Real comments from the businesses we work with will appear here, published only with each client's consent."
           />
         </Reveal>
         <Reveal className="lg:col-span-8" delay={100}>

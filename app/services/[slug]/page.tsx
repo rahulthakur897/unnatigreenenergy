@@ -73,7 +73,7 @@ async function ServiceContent({ params }: Pick<PageProps<"/services/[slug]">, "p
                 id={`${pid}-overview`}
                 className="mt-5 font-display text-[2rem] font-bold leading-[1.1] tracking-[-0.03em] text-ink-950 sm:text-[2.5rem]"
               >
-                How we approach {service.shortTitle.toLowerCase()}
+                Our approach to {service.shortTitle.toLowerCase()}
               </h2>
               <div className="mt-6 space-y-4 text-lg leading-relaxed text-ink-500">
                 {service.intro.map((paragraph) => (
@@ -84,7 +84,7 @@ async function ServiceContent({ params }: Pick<PageProps<"/services/[slug]">, "p
 
             <Reveal className="mt-14">
               <h3 className="font-display text-2xl font-bold tracking-tight text-ink-950">
-                {service.scopeTitle ?? "What we handle"}
+                {service.scopeTitle ?? "What we take"}
               </h3>
               <ul className="mt-6 grid gap-3 sm:grid-cols-2">
                 {service.scope.map((item) => (
@@ -99,7 +99,7 @@ async function ServiceContent({ params }: Pick<PageProps<"/services/[slug]">, "p
             </Reveal>
 
             <Reveal className="mt-14">
-              <h3 className="font-display text-2xl font-bold tracking-tight text-ink-950">How we add value</h3>
+              <h3 className="font-display text-2xl font-bold tracking-tight text-ink-950">What you get</h3>
               <ul className="mt-6 grid gap-4 sm:grid-cols-3">
                 {service.highlights.map((highlight, i) => (
                   <li key={highlight.title} className="rounded-[1.25rem] border border-mist-200 p-6">
@@ -123,7 +123,7 @@ async function ServiceContent({ params }: Pick<PageProps<"/services/[slug]">, "p
       <section aria-labelledby={`${pid}-related`} className="section-y">
         <div className="container-site">
           <Reveal>
-            <SectionHeading id={`${pid}-related`} eyebrow="More Services" title="Explore our other services" />
+            <SectionHeading id={`${pid}-related`} eyebrow="More Services" title="Other ways we can help" />
           </Reveal>
           <ul className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {related.map((item, i) => (

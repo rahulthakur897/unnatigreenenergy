@@ -30,7 +30,7 @@ export function ServiceSpotlight({ id = "manufacturing-line" }: { id?: string })
               <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-forest-900/70 to-transparent lg:bg-gradient-to-r lg:from-forest-900 lg:via-forest-900/20" />
             </div>
             <div className="p-8 sm:p-12 lg:p-14">
-              <Eyebrow tone="dark">Service Spotlight</Eyebrow>
+              <Eyebrow tone="dark">Featured Service</Eyebrow>
               <h2 id={`${id}-title`} className="mt-5 font-display text-[1.875rem] font-bold leading-[1.1] tracking-[-0.03em] sm:text-[2.5rem]">
                 {service.title}
               </h2>
@@ -47,10 +47,10 @@ export function ServiceSpotlight({ id = "manufacturing-line" }: { id?: string })
               </ul>
               <div className="mt-10 flex flex-col gap-3 sm:flex-row">
                 <ButtonLink href={`/services/${service.slug}`} variant="accent" size="lg" arrow>
-                  Explore This Service
+                  Learn More
                 </ButtonLink>
                 <ButtonLink href={quoteHref} variant="outlineLight" size="lg">
-                  Discuss Your Line
+                  Talk About Your Line
                 </ButtonLink>
               </div>
             </div>

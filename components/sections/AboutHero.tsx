@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Tiro_Devanagari_Hindi } from "next/font/google";
 import { ChevronRight } from "lucide-react";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { ButtonLink } from "@/components/ui/Button";
@@ -10,15 +9,12 @@ import { breadcrumbSchema } from "@/lib/seo";
 import { quoteHref } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
-// Loaded only on the About page, for the word "उन्नति".
-const devanagari = Tiro_Devanagari_Hindi({ subsets: ["devanagari"], weight: "400", display: "swap" });
-
 const marqueeWords = [
-  "Responsible Sourcing",
-  "Transparent Trading",
-  "Material Recovery",
-  "Circular Economy",
-  "Long-Term Partnerships",
+  "Accountable Sourcing",
+  "Open Evaluation",
+  "Materials Reclaimed",
+  "A Closed Loop",
+  "Partners for the Long Run",
   "Waste Today, Value Tomorrow",
 ];
 
@@ -72,18 +68,18 @@ export function AboutHero() {
             id="about-hero-title"
             className="mt-5 animate-fade-up font-display text-[2.625rem] font-extrabold leading-[1.02] tracking-[-0.035em] [animation-delay:120ms] sm:text-6xl lg:text-[4.25rem]"
           >
-            Building a More <span className="text-gradient-energy">Sustainable</span> Energy Cycle
+            Giving Every Battery a <span className="text-gradient-energy">Second Purpose</span>
           </h1>
           <p className="mt-7 max-w-xl animate-fade-up text-lg leading-relaxed text-white/75 [animation-delay:200ms] sm:text-xl">
-            We help businesses responsibly manage lithium-ion battery scrap — recovering value from waste and keeping
-            valuable materials in the circular economy.
+            We help businesses deal with lithium-ion battery scrap the right way, turning what was waste into a return and
+            keeping useful materials in circulation.
           </p>
           <div className="mt-10 flex animate-fade-up flex-col gap-3 [animation-delay:280ms] sm:flex-row">
             <ButtonLink href={quoteHref} variant="accent" size="lg" arrow>
               Request a Quote
             </ButtonLink>
             <ButtonLink href="/services" variant="outlineLight" size="lg">
-              Explore Our Services
+              See What We Do
             </ButtonLink>
           </div>
         </div>

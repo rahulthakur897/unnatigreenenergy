@@ -77,20 +77,21 @@ export function Header({ industriesMenu }: { industriesMenu: MenuItem[] }) {
             href="/"
             aria-label={`${site.name} — home`}
             className={cn(
-              "relative z-10 self-start rounded-b-2xl bg-white px-3 py-2.5 transition-shadow duration-500",
+              "relative z-10 self-start rounded-b-2xl bg-white px-3.5 py-3 transition-shadow duration-500",
               solid ? "shadow-none" : "shadow-[0_22px_44px_-20px_rgb(0_0_0/0.6)]",
             )}
           >
+            {/* Kept compact on lg so the wide logo leaves room for the full nav */}
             <Image
               src={logo.src}
               alt={logo.alt}
               width={logo.width}
               height={logo.height}
-              sizes="(min-width: 1024px) 104px, 80px"
+              sizes="(min-width: 1280px) 172px, 136px"
               loading="eager"
               className={cn(
                 "w-auto transition-[height] duration-500 ease-premium",
-                solid ? "h-[52px] lg:h-[60px]" : "h-[64px] lg:h-[86px]",
+                solid ? "h-[44px] xl:h-[52px]" : "h-[54px] lg:h-[48px] xl:h-[68px]",
               )}
             />
           </Link>
@@ -300,10 +301,10 @@ function NavDropdown({
                 <div className="relative">
                   <p className="text-xs font-semibold uppercase tracking-[0.18em] text-leaf-200">Industries</p>
                   <p className="mt-3 font-display text-xl font-semibold leading-snug">
-                    Every sector, one responsible standard.
+                    Any sector, the same careful standard.
                   </p>
                   <p className="mt-2 text-sm leading-relaxed text-white/65">
-                    Tell us about the battery scrap your business generates and we&rsquo;ll suggest the right next step.
+                    Let us know what battery scrap your business produces and we&rsquo;ll recommend where to go from there.
                   </p>
                 </div>
                 <div className="relative mt-6 flex flex-col gap-3">
@@ -419,7 +420,7 @@ function MobileNav({
           >
             <div className="flex items-center justify-between border-b border-mist-200 px-5 py-3">
               <Link href="/" onNavigate={onClose} aria-label={`${site.name} — home`}>
-                <Image src={logo.src} alt={logo.alt} width={logo.width} height={logo.height} sizes="72px" className="h-14 w-auto" />
+                <Image src={logo.src} alt={logo.alt} width={logo.width} height={logo.height} sizes="112px" className="h-11 w-auto" />
               </Link>
               <button
                 type="button"

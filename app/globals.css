@@ -250,6 +250,12 @@
   background-size: 72px 72px;
 }
 
+/* Fine film grain (tiled SVG noise). Use at low opacity with a soft-light blend. */
+@utility bg-grain {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+}
+
 @utility mask-fade-b {
   mask-image: linear-gradient(to bottom, black 40%, transparent);
 }

@@ -10,10 +10,10 @@ export function CTA({
   id = "quote-cta",
   title = (
     <>
-      Have Battery Scrap <span className="text-gradient-energy">to Trade?</span>
+      Got Battery Scrap <span className="text-gradient-energy">to Move On?</span>
     </>
   ),
-  description = "Let's build a responsible and valuable pathway for your battery materials.",
+  description = "Tell us what you have, and we'll work out a responsible route for it that pays.",
 }: {
   id?: string;
   title?: ReactNode;
@@ -54,7 +54,7 @@ export function CTA({
       <div className="container-site py-24 md:py-32 lg:py-40">
         <Reveal className="mx-auto max-w-4xl text-center">
           <Eyebrow tone="dark" className="justify-center">
-            Let&rsquo;s Work Together
+            Get in Touch
           </Eyebrow>
           <h2
             id={`${id}-title`}

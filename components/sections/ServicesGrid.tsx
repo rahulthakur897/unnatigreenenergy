@@ -11,7 +11,7 @@ export function ServicesGrid({
   id = "services",
   eyebrow = "What We Do",
   title = "Our Services",
-  description = "From battery scrap trading and material recovery to support for lithium-ion battery manufacturing lines — responsible, transparent services across the battery value chain.",
+  description = "Scrap trading, material recovery and help with lithium-ion production lines: practical services that cover the battery value chain from start to finish.",
   showLink = true,
   className,
 }: {
@@ -50,10 +50,10 @@ export function ServicesGrid({
               <span className="relative grid size-14 place-items-center rounded-2xl bg-white/10 text-sun-300 ring-1 ring-white/15">
                 <MessageSquare className="size-6" aria-hidden="true" />
               </span>
-              <h3 className="relative mt-7 font-display text-xl font-bold tracking-tight">Need something specific?</h3>
+              <h3 className="relative mt-7 font-display text-xl font-bold tracking-tight">Looking for something else?</h3>
               <p className="relative mt-3 flex-1 text-[0.9375rem] leading-relaxed text-white/70">
-                Every requirement is different. Tell us about your material or project and we&rsquo;ll shape the right
-                service around it.
+                No two businesses need quite the same thing. Tell us about your material or project and we&rsquo;ll put
+                together a service that fits.
               </p>
               <ButtonLink href={quoteHref} variant="accent" arrow className="relative mt-7 self-start">
                 Talk to Our Team

@@ -16,13 +16,13 @@ export function LogoCloud({ id = "partners" }: { id?: string }) {
           <div>
             <Eyebrow>Partners</Eyebrow>
             <h2 id={`${id}-title`} className="mt-4 font-display text-[1.75rem] font-bold tracking-tight text-ink-950 sm:text-4xl">
-              Building Stronger Partnerships
+              The Businesses We Work With
             </h2>
           </div>
           <div className="flex max-w-md flex-col items-start gap-3 md:items-end md:text-right">
             <p className="leading-relaxed text-ink-500">
-              Responsible battery recovery is a team effort across the value chain — from manufacturers and aggregators to
-              recyclers and industrial businesses.
+              Recovering batteries properly takes the whole value chain working together: manufacturers, aggregators,
+              recyclers and industrial companies alike.
             </p>
             {hasPlaceholders && <PlaceholderTag />}
           </div>

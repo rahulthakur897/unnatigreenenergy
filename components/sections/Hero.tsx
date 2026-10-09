@@ -42,12 +42,12 @@ export function Hero() {
             id="home-hero-title"
             className="mt-7 animate-fade-up font-display text-[2.625rem] font-extrabold leading-[1.02] tracking-[-0.035em] [animation-delay:120ms] sm:text-6xl lg:text-[4.25rem] xl:text-[4.5rem]"
           >
-            Turning Battery Waste Into <span className="text-gradient-energy">Tomorrow&rsquo;s Energy</span>
+            Used Batteries Today, <span className="text-gradient-energy">Valuable Resources Tomorrow</span>
           </h1>
 
           <p className="mt-7 max-w-xl animate-fade-up text-lg leading-relaxed text-white/75 [animation-delay:240ms] sm:text-xl">
-            UNNATI GREEN ENERGY specializes in responsible lithium-ion cell and battery scrap trading, helping businesses
-            recover value from battery waste while supporting a cleaner, more sustainable future.
+            UNNATI GREEN ENERGY buys and trades lithium-ion cell and battery scrap, giving businesses a dependable way to
+            earn a return on worn-out batteries and keep their materials in use.
           </p>
 
           <div className="mt-10 flex animate-fade-up flex-col gap-3 [animation-delay:360ms] sm:flex-row sm:items-center">
@@ -55,7 +55,7 @@ export function Hero() {
               Request a Quote
             </ButtonLink>
             <ButtonLink href="/services" variant="outlineLight" size="lg">
-              Explore Our Services
+              See What We Do
             </ButtonLink>
           </div>
 

@@ -21,8 +21,8 @@ export function CircularEconomy({ id = "circular-economy" }: { id?: string }) {
             align="center"
             tone="dark"
             eyebrow="Circular Economy"
-            title="Closing the Loop on Battery Waste"
-            description="Batteries don't have to end as waste. Each stage of the loop keeps valuable materials moving — from first use to new energy value."
+            title="How a Used Battery Comes Full Circle"
+            description="A battery's story doesn't have to end in the bin. Follow each stage, from first use to renewed value, and see how its materials keep moving."
           />
         </Reveal>
         <Reveal className="mt-14 md:mt-20" delay={120}>

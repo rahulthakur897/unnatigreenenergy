@@ -7,7 +7,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata = pageMetadata({
   title: "Contact Us — Request a Quote",
   description:
-    "Request a quote for lithium-ion cell and battery scrap. Share your material type, quantity and location with UNNATI GREEN ENERGY.",
+    "Get a quote from UNNATI GREEN ENERGY for your lithium-ion cell and battery scrap. Tell us the material, quantity and location.",
   path: "/contact",
 });
 
@@ -17,8 +17,8 @@ export default function ContactPage() {
       <PageHero
         id="contact-hero"
         eyebrow="Contact"
-        title="Let's Talk About Your Battery Scrap"
-        description="Request a quote, ask a question or discuss a recurring requirement. Our team will review your details and respond with next steps."
+        title="Got Battery Scrap? Let's Talk"
+        description="Ask for a quote, put a question to us or set up regular pickups. We'll look at your details and reply with the next steps."
         image={photos.fieldTeam}
         crumbs={[{ label: "Contact", href: "/contact" }]}
         compact

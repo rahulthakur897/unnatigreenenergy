@@ -24,10 +24,10 @@ export default function NotFound() {
       <div className="container-site flex min-h-[100svh] flex-col items-start justify-center pb-24 pt-40">
         <p className="font-display text-sm font-semibold uppercase tracking-[0.2em] text-sun-300">Error 404</p>
         <h1 id="not-found-title" className="mt-5 max-w-3xl font-display text-5xl font-extrabold leading-[1.02] tracking-[-0.035em] sm:text-7xl">
-          This page has been <span className="text-gradient-energy">recycled.</span>
+          Looks like this page <span className="text-gradient-energy">ran out of charge.</span>
         </h1>
         <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/70">
-          The page you&rsquo;re looking for doesn&rsquo;t exist or may have moved. Let&rsquo;s get you back on track.
+          We couldn&rsquo;t find the page you wanted. It may have moved or never existed. Try one of the links below.
         </p>
         <div className="mt-10 flex flex-col gap-3 sm:flex-row">
           <ButtonLink href="/" variant="accent" size="lg" arrow>

@@ -43,12 +43,12 @@ export function Footer() {
       <div className="container-site relative">
         <div className="grid gap-12 py-14 sm:grid-cols-2 lg:grid-cols-12 lg:gap-10">
           <div className="sm:col-span-2 lg:col-span-4">
-            <Link href="/" aria-label={`${site.name} — home`} className="inline-block rounded-2xl bg-white p-3.5 shadow-lg">
-              <Logo className="h-24 w-auto" sizes="120px" />
+            <Link href="/" aria-label={`${site.name} — home`} className="inline-block rounded-2xl bg-white px-5 py-4 shadow-lg">
+              <Logo className="h-20 w-auto" sizes="204px" />
             </Link>
             <p className="mt-6 max-w-sm text-[0.9375rem] leading-relaxed text-white/65">
-              Responsible lithium-ion cell and battery scrap trading — helping businesses recover value from battery
-              waste while supporting a cleaner, circular energy future.
+              Lithium-ion cell and battery scrap trading done properly, so businesses get a return on used batteries and
+              their materials stay in use.
             </p>
             {site.social.length > 0 && (
               <ul className="mt-6 flex gap-3">
@@ -130,11 +130,6 @@ export function Footer() {
               <Link href="/terms" className="transition-colors hover:text-white">
                 Terms &amp; Conditions
               </Link>
-            </li>
-            <li>
-              <a href="/sitemap.xml" className="transition-colors hover:text-white">
-                Sitemap
-              </a>
             </li>
           </ul>
         </div>

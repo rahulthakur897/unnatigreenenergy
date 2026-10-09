@@ -14,8 +14,11 @@ const purpose = [
     icon: Compass,
     statement: (
       <>
-        To make responsible battery scrap management <span className="text-leaf-300">simple, transparent and valuable</span>{" "}
-        for every business we work with.
+        To drive sustainable battery resource management through{" "}
+        <span className="text-leaf-300">
+          responsible sourcing, transparent trading, and value recovery
+        </span>{" "}
+        for a cleaner tomorrow.
       </>
     ),
   },
@@ -24,12 +27,16 @@ const purpose = [
     icon: Telescope,
     statement: (
       <>
-        A circular battery economy in India, where valuable materials are{" "}
-        <span className="text-leaf-300">recovered — not wasted</span>.
+        To build a future where battery materials power a{" "}
+        <span className="text-leaf-300">
+          thriving circular economy
+        </span>
+        , transforming waste into valuable resources for generations to come.
       </>
     ),
   },
 ];
+
 
 /** Dark "manifesto" panels for mission and vision. */
 export function MissionVision({ id = "mission-vision" }: { id?: string }) {

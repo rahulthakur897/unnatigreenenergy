@@ -113,8 +113,8 @@ async function BlogPostContent({ params }: Pick<PageProps<"/blog/[slug]">, "para
             ))}
 
             <p className="mt-14 rounded-2xl border border-mist-200 bg-mist-50 p-5 text-sm leading-relaxed text-ink-500">
-              This article is for general information only. It is not legal, safety or compliance advice — always follow the
-              regulations and guidance that apply to your site and material.
+              This article offers general information only and should not be taken as legal, safety or compliance advice.
+              Always follow the regulations and guidance that apply to your own site and material.
             </p>
 
             <Link
@@ -131,7 +131,7 @@ async function BlogPostContent({ params }: Pick<PageProps<"/blog/[slug]">, "para
         <section aria-labelledby={`${pid}-related`} className="section-y">
           <div className="container-site">
             <Reveal>
-              <SectionHeading id={`${pid}-related`} eyebrow="Keep Reading" title="More from the blog" />
+              <SectionHeading id={`${pid}-related`} eyebrow="Keep Reading" title="You might also like" />
             </Reveal>
             <ul className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {related.map((item, index) => (

@@ -10,8 +10,8 @@ import { cn } from "@/lib/utils";
 export function SustainabilityHighlights({
   id = "sustainability",
   eyebrow = "Sustainability",
-  title = "Creating Value Beyond Waste",
-  description = "Responsible battery scrap management is more than a transaction. It keeps valuable materials in use, reduces environmental risk and strengthens the clean-energy economy.",
+  title = "More Than Just Scrap",
+  description = "Handling battery scrap properly does more than close a deal. It keeps useful materials in circulation, lowers environmental risk and makes the clean-energy economy stronger.",
   showLink = true,
   className,
 }: {
@@ -49,7 +49,7 @@ export function SustainabilityHighlights({
           </ul>
           {showLink && (
             <Reveal className="mt-10">
-              <ArrowLink href="/sustainability">Our sustainability approach</ArrowLink>
+              <ArrowLink href="/sustainability">How we think about sustainability</ArrowLink>
             </Reveal>
           )}
         </div>
@@ -71,7 +71,7 @@ export function SustainabilityHighlights({
                 Waste Today, <span className="text-sun-300">Value Tomorrow.</span>
               </p>
               <p className="mt-3 text-sm leading-relaxed text-white/70">
-                Responsible recovery keeps valuable materials in productive use — and out of landfill.
+                Recovering batteries properly keeps their materials working, and keeps them out of landfill.
               </p>
             </div>
           </div>
