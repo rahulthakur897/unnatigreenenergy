@@ -1,0 +1,9 @@
+{
+  "name": "Unnati Green Energy",
+  "short_name": "Unnati",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": []
+}
