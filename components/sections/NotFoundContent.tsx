@@ -1,13 +1,7 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { ButtonLink } from "@/components/ui/Button";
 import { CellPattern, SunGlow } from "@/components/ui/Decor";
 import { quoteHref } from "@/lib/site";
-
-export const metadata: Metadata = {
-  title: "Page Not Found",
-  robots: { index: false, follow: true },
-};
 
 const shortcuts = [
   { label: "Our Products", href: "/products" },
@@ -16,7 +10,7 @@ const shortcuts = [
   { label: "Blog", href: "/blog" },
 ];
 
-export default function NotFound() {
+export function NotFoundContent() {
   return (
     <section aria-labelledby="not-found-title" className="surface-dark relative isolate overflow-hidden bg-forest-950 text-white">
       <CellPattern id="not-found-cells" className="-z-10 text-white/[0.04] [mask-image:radial-gradient(ellipse_at_center,black,transparent_70%)]" />
